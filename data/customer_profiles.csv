@@ -1,1 +1,501 @@
-customer_profiles.csv
+customer_id,customer_name,account_age_days,customer_since,home_country,nationality,residence_city,avg_monthly_transactions,avg_transaction_amount,customer_risk_level,kyc_verified,kyc_expiry_date,employment_status,employer_type,account_balance,pep_status,previous_fraud_cases,sama_watchlist,account_type
+SA00000001,Turki Fahad,2533,2018-10-28,Saudi Arabia,Saudi,Medina,21,6189.66,Low,True,2026-07-07,Employed,Not Employed,341476.8,False,0,False,Corporate
+SA00000002,Fahad Salem,3555,2016-01-10,Saudi Arabia,Saudi,Tabuk,100,7655.14,Low,True,2025-09-18,Retired,Private Sector,421152.36,True,0,False,Joint
+SA00000003,Fahad Salem,1635,2021-04-13,Qatar,Expatriate,Tabuk,15,6451.38,Low,True,2026-04-06,Student,Government,250793.06,False,0,False,Corporate
+SA00000004,Lama Khalid,1916,2020-07-06,UAE,Expatriate,Dhahran,34,5663.32,Low,True,2026-06-23,Business Owner,Not Employed,181344.37,False,0,False,Corporate
+SA00000005,Mohammed Ahmed,2717,2018-04-27,Saudi Arabia,Saudi,Taif,60,3253.83,Low,True,2026-07-10,Self-Employed,Private Sector,283992.66,False,0,False,Joint
+SA00000006,Saad Abdullah,715,2023-10-20,Egypt,Expatriate,Mecca,26,3205.65,Medium,True,2025-10-19,Retired,Private Sector,128235.35,False,2,False,Joint
+SA00000007,Turki Fahad,2711,2018-05-03,Saudi Arabia,Saudi,Jubail,46,2279.13,Low,True,2026-08-17,Business Owner,Government,267133.57,False,1,False,Joint
+SA00000008,Sarah Ahmed,634,2024-01-09,Jordan,Expatriate,Jubail,44,7278.03,Low,False,2026-01-16,Self-Employed,Private Sector,280072.96,False,0,False,Corporate
+SA00000009,Sarah Ahmed,1527,2021-07-30,Saudi Arabia,Saudi,Riyadh,51,4346.7,Low,True,2026-01-15,Self-Employed,Government,404553.95,False,0,False,Joint
+SA00000010,Sarah Ahmed,3504,2016-03-01,Saudi Arabia,Saudi,Buraidah,68,3364.21,Low,True,2026-03-12,Student,Not Employed,458110.73,True,2,False,Corporate
+SA00000011,Saad Abdullah,3290,2016-10-01,Saudi Arabia,Saudi,Dhahran,80,5754.43,Low,True,2025-12-15,Retired,Private Sector,218574.78,True,0,False,Corporate
+SA00000012,Bandar Mohammed,3012,2017-07-06,UK,Expatriate,Jeddah,60,1827.25,Low,True,2025-10-14,Self-Employed,Self-Employed,143132.58,False,1,False,Joint
+SA00000013,Reem Ibrahim,3465,2016-04-09,Saudi Arabia,Saudi,Tabuk,44,4162.76,Low,True,2026-09-28,Student,Private Sector,161886.7,False,1,True,Corporate
+SA00000014,Saad Abdullah,3488,2016-03-17,Saudi Arabia,Saudi,Mecca,19,6856.9,Low,True,2026-04-24,Retired,Private Sector,120178.86,True,0,False,Individual
+SA00000015,Reem Ibrahim,531,2024-04-21,Turkey,Expatriate,Riyadh,90,7638.52,High,True,2026-01-08,Self-Employed,Not Employed,408380.72,False,0,False,Individual
+SA00000016,Bandar Mohammed,1884,2020-08-07,Saudi Arabia,Saudi,Dhahran,33,5330.73,Medium,True,2025-10-27,Employed,Government,267311.87,False,0,False,Individual
+SA00000017,Abdullah Khalid,522,2024-04-30,Saudi Arabia,Saudi,Khobar,98,4482.07,Low,True,2026-02-13,Self-Employed,Private Sector,181692.68,False,2,False,Corporate
+SA00000018,Sultan Mansour,1093,2022-10-07,France,Expatriate,Riyadh,19,4078.32,Low,True,2026-08-24,Business Owner,Not Employed,398418.0,False,0,True,Corporate
+SA00000019,Bandar Mohammed,570,2024-03-13,USA,Expatriate,Dhahran,92,2726.53,Low,True,2026-05-01,Employed,Government,139689.34,False,2,False,Joint
+SA00000020,Fahad Salem,3369,2016-07-14,Saudi Arabia,Saudi,Taif,73,690.48,Low,True,2026-08-02,Business Owner,Government,18665.09,False,0,False,Joint
+SA00000021,Sultan Mansour,299,2024-12-09,Saudi Arabia,Saudi,Mecca,45,3812.29,Low,True,2026-04-09,Employed,Self-Employed,113741.23,True,2,False,Individual
+SA00000022,Lama Khalid,2197,2019-09-29,Kuwait,Expatriate,Taif,26,7285.78,Low,True,2025-12-14,Student,Self-Employed,175856.68,False,1,True,Individual
+SA00000023,Sarah Ahmed,2491,2018-12-09,Saudi Arabia,Saudi,Mecca,78,5864.78,Medium,True,2026-02-27,Self-Employed,Self-Employed,483196.92,False,2,False,Individual
+SA00000024,Fahad Salem,722,2023-10-13,Saudi Arabia,Saudi,Abha,93,6212.69,Medium,True,2026-08-28,Business Owner,Private Sector,446863.92,True,1,False,Individual
+SA00000025,Maha Salem,1519,2021-08-07,Saudi Arabia,Saudi,Taif,93,5609.24,Low,True,2025-12-28,Self-Employed,Private Sector,211901.81,False,1,False,Individual
+SA00000026,Abdullah Khalid,1656,2021-03-23,UAE,Expatriate,Buraidah,63,555.38,Low,False,2026-07-11,Student,Government,382363.38,False,0,True,Individual
+SA00000027,Saad Abdullah,87,2025-07-09,Saudi Arabia,Saudi,Jeddah,24,3292.12,Low,True,2026-06-16,Business Owner,Private Sector,353190.45,False,2,True,Joint
+SA00000028,Maha Salem,2217,2019-09-09,Saudi Arabia,Saudi,Dammam,56,3932.12,Low,False,2026-09-24,Retired,Private Sector,73001.73,False,2,False,Individual
+SA00000029,Turki Fahad,2946,2017-09-10,Saudi Arabia,Saudi,Riyadh,86,1027.82,High,True,2026-01-11,Self-Employed,Self-Employed,280326.44,True,0,False,Individual
+SA00000030,Mohammed Ahmed,1688,2021-02-19,Saudi Arabia,Saudi,Dhahran,28,6604.21,High,True,2025-12-21,Retired,Government,450158.98,False,2,True,Individual
+SA00000031,Sarah Ahmed,3532,2016-02-02,Saudi Arabia,Saudi,Jeddah,73,632.29,Medium,False,2026-01-23,Employed,Private Sector,3653.3,False,0,False,Individual
+SA00000032,Mohammed Ahmed,638,2024-01-05,Saudi Arabia,Saudi,Abha,14,1914.06,Medium,True,2026-03-28,Employed,Self-Employed,332153.11,False,1,True,Joint
+SA00000033,Abdullah Khalid,1611,2021-05-07,Saudi Arabia,Saudi,Khobar,98,2359.42,Medium,True,2026-03-08,Retired,Self-Employed,284554.15,False,2,False,Corporate
+SA00000034,Noura Abdullah,1783,2020-11-16,Saudi Arabia,Saudi,Dammam,14,804.45,Low,True,2026-04-11,Retired,Government,285002.93,False,1,True,Joint
+SA00000035,Faisal Omar,2450,2019-01-19,Saudi Arabia,Saudi,Taif,75,4073.88,Low,True,2026-05-06,Employed,Private Sector,9571.0,False,0,False,Joint
+SA00000036,Bandar Mohammed,321,2024-11-17,Saudi Arabia,Saudi,Abha,68,949.53,Low,True,2026-02-08,Employed,Private Sector,286001.03,False,1,True,Corporate
+SA00000037,Mohammed Ahmed,1692,2021-02-15,France,Expatriate,Medina,14,1486.79,Medium,False,2025-12-31,Employed,Private Sector,66359.88,False,2,False,Corporate
+SA00000038,Bandar Mohammed,2878,2017-11-17,Saudi Arabia,Saudi,Buraidah,73,5048.77,High,False,2026-03-03,Self-Employed,Private Sector,470381.96,True,2,False,Individual
+SA00000039,Abdullah Khalid,2498,2018-12-02,Saudi Arabia,Saudi,Abha,53,2764.76,Low,True,2026-05-24,Business Owner,Self-Employed,91253.66,False,0,False,Individual
+SA00000040,Abdullah Khalid,2430,2019-02-08,Saudi Arabia,Saudi,Khobar,8,6241.85,Medium,False,2026-01-21,Retired,Not Employed,399870.68,False,0,False,Joint
+SA00000041,Fahad Salem,34,2025-08-31,Saudi Arabia,Saudi,Dhahran,76,3821.28,Low,True,2026-06-09,Student,Not Employed,200756.39,True,0,True,Corporate
+SA00000042,Maha Salem,1749,2020-12-20,Saudi Arabia,Saudi,Medina,54,7146.11,Medium,True,2026-01-13,Retired,Government,12015.27,False,0,False,Joint
+SA00000043,Khalid Ibrahim,1956,2020-05-27,Saudi Arabia,Saudi,Riyadh,80,5965.1,Low,False,2026-07-16,Self-Employed,Not Employed,220969.02,False,2,False,Individual
+SA00000044,Faisal Omar,942,2023-03-07,Egypt,Expatriate,Riyadh,93,3093.5,Medium,True,2025-12-04,Retired,Self-Employed,55505.92,True,0,True,Corporate
+SA00000045,Sultan Mansour,1777,2020-11-22,Saudi Arabia,Saudi,Medina,15,6855.94,High,True,2026-05-30,Business Owner,Self-Employed,306056.17,False,0,True,Joint
+SA00000046,Sultan Mansour,1045,2022-11-24,India,Expatriate,Dammam,42,6013.57,Low,True,2025-10-11,Retired,Government,198063.2,True,1,False,Joint
+SA00000047,Noura Abdullah,3445,2016-04-29,Saudi Arabia,Saudi,Dammam,40,4710.89,Low,True,2026-06-25,Retired,Not Employed,132265.28,True,2,False,Individual
+SA00000048,Bandar Mohammed,225,2025-02-21,Saudi Arabia,Saudi,Khobar,69,3477.0,High,False,2026-09-09,Self-Employed,Self-Employed,50329.6,False,0,False,Joint
+SA00000049,Mohammed Ahmed,558,2024-03-25,Oman,Expatriate,Jeddah,66,6141.13,Medium,True,2026-02-05,Business Owner,Self-Employed,96761.84,False,0,False,Corporate
+SA00000050,Lama Khalid,3549,2016-01-16,Saudi Arabia,Saudi,Mecca,9,2106.58,Low,True,2026-01-24,Business Owner,Not Employed,424204.16,False,0,False,Joint
+SA00000051,Mohammed Ahmed,2350,2019-04-29,Saudi Arabia,Saudi,Riyadh,23,7198.46,Low,True,2025-11-12,Employed,Private Sector,367052.51,False,0,True,Corporate
+SA00000052,Faisal Omar,809,2023-07-18,India,Expatriate,Abha,91,6748.75,Low,False,2025-10-14,Business Owner,Private Sector,472218.73,False,2,False,Joint
+SA00000053,Sultan Mansour,804,2023-07-23,Saudi Arabia,Saudi,Jubail,46,3293.08,Low,True,2025-10-11,Self-Employed,Self-Employed,24504.93,False,0,False,Individual
+SA00000054,Reem Ibrahim,675,2023-11-29,Qatar,Expatriate,Riyadh,36,1720.24,Medium,True,2025-12-06,Retired,Not Employed,104352.18,False,0,False,Individual
+SA00000055,Bandar Mohammed,2955,2017-09-01,USA,Expatriate,Buraidah,99,5606.54,Medium,True,2025-09-20,Business Owner,Self-Employed,355522.43,False,1,False,Corporate
+SA00000056,Reem Ibrahim,656,2023-12-18,Saudi Arabia,Saudi,Abha,16,5243.74,Medium,False,2026-01-28,Employed,Not Employed,132116.23,False,0,False,Corporate
+SA00000057,Khalid Ibrahim,665,2023-12-09,Saudi Arabia,Saudi,Buraidah,51,7588.54,Low,True,2026-06-17,Business Owner,Self-Employed,211351.09,False,0,True,Corporate
+SA00000058,Khalid Ibrahim,844,2023-06-13,Saudi Arabia,Saudi,Mecca,71,7953.33,High,True,2025-09-08,Self-Employed,Government,67653.8,False,1,False,Individual
+SA00000059,Mohammed Ahmed,3625,2015-11-01,Saudi Arabia,Saudi,Medina,7,1911.78,Low,False,2026-05-01,Student,Government,367164.58,False,2,True,Corporate
+SA00000060,Mohammed Ahmed,3371,2016-07-12,Saudi Arabia,Saudi,Taif,59,1307.56,Medium,True,2026-09-23,Retired,Private Sector,449373.18,False,0,False,Joint
+SA00000061,Mohammed Ahmed,892,2023-04-26,Saudi Arabia,Saudi,Jeddah,27,7299.83,High,True,2026-05-11,Self-Employed,Private Sector,15007.17,False,2,False,Individual
+SA00000062,Sultan Mansour,2242,2019-08-15,Saudi Arabia,Saudi,Taif,13,7583.07,High,True,2025-10-20,Student,Private Sector,478827.11,False,0,False,Corporate
+SA00000063,Maha Salem,1829,2020-10-01,Saudi Arabia,Saudi,Jubail,57,7347.08,Low,False,2026-09-12,Employed,Not Employed,321275.46,False,0,False,Corporate
+SA00000064,Lama Khalid,2578,2018-09-13,Saudi Arabia,Saudi,Tabuk,28,7420.14,Low,False,2026-03-07,Business Owner,Private Sector,268643.06,False,0,True,Joint
+SA00000065,Turki Fahad,1420,2021-11-14,Saudi Arabia,Saudi,Jeddah,28,1413.3,High,True,2026-06-30,Retired,Not Employed,197404.36,True,0,False,Joint
+SA00000066,Saad Abdullah,1043,2022-11-26,Saudi Arabia,Saudi,Medina,85,1663.49,High,True,2025-12-08,Employed,Private Sector,42725.9,False,0,True,Joint
+SA00000067,Noura Abdullah,995,2023-01-13,Saudi Arabia,Saudi,Khobar,93,4511.83,High,True,2026-08-12,Employed,Not Employed,427601.34,False,0,False,Joint
+SA00000068,Fahad Salem,2480,2018-12-20,Saudi Arabia,Saudi,Khobar,18,4784.5,High,True,2026-08-25,Retired,Private Sector,299289.72,False,0,False,Individual
+SA00000069,Reem Ibrahim,612,2024-01-31,Saudi Arabia,Saudi,Taif,54,6037.82,Low,True,2026-06-16,Student,Private Sector,82193.11,False,0,False,Individual
+SA00000070,Fahad Salem,1568,2021-06-19,Saudi Arabia,Saudi,Dhahran,91,2699.92,Low,False,2025-12-11,Self-Employed,Government,346331.86,False,0,False,Corporate
+SA00000071,Reem Ibrahim,1843,2020-09-17,Saudi Arabia,Saudi,Riyadh,44,4117.19,High,False,2026-05-22,Business Owner,Self-Employed,6365.91,False,0,False,Individual
+SA00000072,Sarah Ahmed,2544,2018-10-17,Saudi Arabia,Saudi,Dhahran,69,5537.97,Low,True,2025-12-10,Student,Not Employed,129060.64,False,0,True,Joint
+SA00000073,Reem Ibrahim,685,2023-11-19,Saudi Arabia,Saudi,Tabuk,99,2668.95,Low,True,2025-12-07,Student,Not Employed,237345.57,False,0,False,Joint
+SA00000074,Nasser Ali,101,2025-06-25,Saudi Arabia,Saudi,Jeddah,56,2924.46,Low,True,2026-07-10,Self-Employed,Government,327232.85,True,2,False,Individual
+SA00000075,Abdullah Khalid,509,2024-05-13,Saudi Arabia,Saudi,Khobar,57,1903.26,Low,True,2026-02-12,Business Owner,Not Employed,116679.4,False,0,False,Joint
+SA00000076,Maha Salem,735,2023-09-30,Turkey,Expatriate,Abha,28,533.41,Medium,True,2026-02-22,Retired,Government,323330.41,True,0,False,Individual
+SA00000077,Abdullah Khalid,2994,2017-07-24,Saudi Arabia,Saudi,Medina,88,4398.82,Low,True,2026-01-21,Business Owner,Private Sector,352334.05,False,0,False,Individual
+SA00000078,Maha Salem,416,2024-08-14,Saudi Arabia,Saudi,Mecca,14,3102.48,Low,True,2026-09-03,Retired,Private Sector,434930.23,True,0,True,Corporate
+SA00000079,Abdullah Khalid,64,2025-08-01,Saudi Arabia,Saudi,Tabuk,19,4340.54,Low,True,2026-03-22,Retired,Self-Employed,375163.26,False,0,True,Individual
+SA00000080,Sarah Ahmed,1841,2020-09-19,France,Expatriate,Medina,45,4262.09,Medium,False,2026-01-26,Student,Self-Employed,387647.86,False,1,True,Joint
+SA00000081,Sultan Mansour,921,2023-03-28,Saudi Arabia,Saudi,Abha,28,1071.99,Low,False,2025-11-17,Self-Employed,Government,97057.31,False,0,False,Individual
+SA00000082,Bandar Mohammed,698,2023-11-06,Saudi Arabia,Saudi,Dammam,73,1892.27,Low,True,2026-09-14,Student,Government,45478.78,True,0,False,Corporate
+SA00000083,Noura Abdullah,2386,2019-03-24,Saudi Arabia,Saudi,Buraidah,17,5283.16,High,True,2025-10-30,Business Owner,Government,28978.02,False,0,True,Individual
+SA00000084,Mohammed Ahmed,2922,2017-10-04,Saudi Arabia,Saudi,Riyadh,5,2913.12,Low,True,2026-06-07,Retired,Private Sector,272213.93,False,0,False,Corporate
+SA00000085,Lama Khalid,1367,2022-01-06,Saudi Arabia,Saudi,Mecca,39,2105.32,High,True,2026-06-12,Employed,Self-Employed,276798.79,False,0,False,Joint
+SA00000086,Saad Abdullah,274,2025-01-03,Saudi Arabia,Saudi,Dhahran,73,5640.55,Low,False,2026-09-26,Student,Private Sector,428968.39,False,1,False,Joint
+SA00000087,Lama Khalid,2787,2018-02-16,Egypt,Expatriate,Medina,66,3378.57,Low,True,2026-07-26,Employed,Not Employed,88928.05,False,0,False,Corporate
+SA00000088,Abdullah Khalid,3212,2016-12-18,Saudi Arabia,Saudi,Riyadh,14,1681.0,High,True,2025-12-15,Self-Employed,Private Sector,50025.1,True,1,False,Corporate
+SA00000089,Noura Abdullah,1918,2020-07-04,Saudi Arabia,Saudi,Tabuk,98,6877.88,High,False,2026-02-17,Employed,Not Employed,476357.46,False,0,True,Individual
+SA00000090,Lama Khalid,1760,2020-12-09,Saudi Arabia,Saudi,Abha,97,3087.83,High,True,2025-09-07,Business Owner,Government,428222.15,False,0,False,Joint
+SA00000091,Bandar Mohammed,1943,2020-06-09,Saudi Arabia,Saudi,Taif,57,1110.88,High,True,2026-03-03,Business Owner,Not Employed,289987.92,True,2,False,Joint
+SA00000092,Sarah Ahmed,1463,2021-10-02,Saudi Arabia,Saudi,Taif,27,5928.51,Low,True,2026-08-29,Student,Not Employed,184635.41,False,1,True,Individual
+SA00000093,Maha Salem,2384,2019-03-26,Saudi Arabia,Saudi,Jeddah,22,2724.65,Low,True,2026-07-16,Business Owner,Private Sector,172042.58,False,1,False,Joint
+SA00000094,Sarah Ahmed,2603,2018-08-19,Saudi Arabia,Expatriate,Taif,99,2523.32,Low,True,2026-04-19,Retired,Not Employed,71788.33,True,0,True,Joint
+SA00000095,Lama Khalid,287,2024-12-21,Saudi Arabia,Saudi,Taif,78,5026.14,Medium,True,2026-06-18,Employed,Not Employed,153843.27,False,0,False,Joint
+SA00000096,Sultan Mansour,1691,2021-02-16,Saudi Arabia,Saudi,Jeddah,70,1709.62,High,True,2025-10-31,Student,Not Employed,121644.67,False,1,False,Individual
+SA00000097,Bandar Mohammed,3032,2017-06-16,Bahrain,Expatriate,Dhahran,42,6255.96,High,True,2026-01-17,Retired,Self-Employed,5433.22,True,0,True,Individual
+SA00000098,Abdullah Khalid,730,2023-10-05,Saudi Arabia,Saudi,Riyadh,25,3308.08,Medium,True,2026-03-26,Student,Self-Employed,276662.03,False,0,False,Corporate
+SA00000099,Turki Fahad,1498,2021-08-28,Saudi Arabia,Saudi,Jeddah,33,204.25,High,True,2026-08-10,Employed,Self-Employed,241492.57,True,1,False,Joint
+SA00000100,Maha Salem,1102,2022-09-28,Bahrain,Expatriate,Buraidah,49,3444.75,Low,True,2025-11-19,Student,Self-Employed,457641.69,False,0,False,Individual
+SA00000101,Nasser Ali,2979,2017-08-08,Saudi Arabia,Saudi,Abha,56,994.22,High,True,2026-07-31,Self-Employed,Government,455624.65,False,0,False,Individual
+SA00000102,Bandar Mohammed,3172,2017-01-27,Saudi Arabia,Saudi,Medina,61,7834.23,Low,False,2026-04-21,Business Owner,Government,251575.48,False,2,False,Joint
+SA00000103,Saad Abdullah,2204,2019-09-22,Saudi Arabia,Saudi,Mecca,58,7049.86,Low,True,2025-10-31,Self-Employed,Not Employed,186494.44,False,0,False,Corporate
+SA00000104,Sultan Mansour,1271,2022-04-12,Saudi Arabia,Saudi,Mecca,81,4843.39,Low,False,2026-05-09,Retired,Self-Employed,477368.73,True,0,False,Individual
+SA00000105,Nasser Ali,188,2025-03-30,Saudi Arabia,Saudi,Mecca,21,1111.27,Low,False,2026-05-06,Self-Employed,Self-Employed,466253.23,False,0,False,Individual
+SA00000106,Khalid Ibrahim,1388,2021-12-16,Saudi Arabia,Saudi,Medina,86,5250.63,Low,False,2025-09-19,Retired,Not Employed,153997.94,False,0,False,Joint
+SA00000107,Bandar Mohammed,1555,2021-07-02,Saudi Arabia,Saudi,Medina,81,3609.17,Low,True,2025-12-31,Business Owner,Private Sector,156613.64,False,0,False,Corporate
+SA00000108,Faisal Omar,3014,2017-07-04,Saudi Arabia,Saudi,Medina,18,1496.55,High,True,2025-09-05,Self-Employed,Not Employed,64299.04,False,0,False,Joint
+SA00000109,Reem Ibrahim,1000,2023-01-08,Qatar,Expatriate,Abha,64,4058.3,Medium,True,2026-06-05,Business Owner,Private Sector,308934.01,True,0,False,Joint
+SA00000110,Fahad Salem,730,2023-10-05,Saudi Arabia,Saudi,Tabuk,90,2581.14,Low,True,2026-09-03,Retired,Government,203337.07,True,0,True,Corporate
+SA00000111,Abdullah Khalid,1867,2020-08-24,Saudi Arabia,Saudi,Riyadh,48,7346.65,High,True,2026-03-08,Retired,Government,129534.01,False,0,False,Corporate
+SA00000112,Faisal Omar,3162,2017-02-06,Saudi Arabia,Saudi,Abha,32,2981.65,Low,True,2026-04-16,Business Owner,Self-Employed,56511.42,False,0,False,Joint
+SA00000113,Lama Khalid,2906,2017-10-20,Saudi Arabia,Saudi,Tabuk,63,1755.62,Low,True,2025-09-22,Retired,Private Sector,244421.03,True,0,False,Individual
+SA00000114,Khalid Ibrahim,2200,2019-09-26,Saudi Arabia,Saudi,Dhahran,15,7016.01,Low,True,2026-01-04,Business Owner,Private Sector,213848.45,False,1,True,Joint
+SA00000115,Reem Ibrahim,3356,2016-07-27,Saudi Arabia,Saudi,Buraidah,13,2950.49,Low,False,2026-06-09,Student,Private Sector,5316.52,True,0,False,Corporate
+SA00000116,Fahad Salem,1313,2022-03-01,Saudi Arabia,Saudi,Jeddah,61,5593.77,Medium,True,2026-08-08,Self-Employed,Self-Employed,364604.8,False,1,False,Individual
+SA00000117,Nasser Ali,1489,2021-09-06,Saudi Arabia,Saudi,Abha,66,1666.33,Low,False,2026-05-16,Employed,Not Employed,221625.19,False,0,True,Joint
+SA00000118,Khalid Ibrahim,1301,2022-03-13,Saudi Arabia,Saudi,Medina,55,1265.1,High,True,2026-03-15,Student,Self-Employed,485848.56,False,0,False,Joint
+SA00000119,Mohammed Ahmed,489,2024-06-02,Saudi Arabia,Saudi,Buraidah,81,4522.01,Medium,True,2026-06-26,Employed,Private Sector,416413.83,False,0,False,Joint
+SA00000120,Bandar Mohammed,2243,2019-08-14,Saudi Arabia,Saudi,Dhahran,89,4272.12,Low,True,2026-08-03,Retired,Not Employed,138829.21,True,1,False,Joint
+SA00000121,Faisal Omar,2417,2019-02-21,Germany,Expatriate,Mecca,76,7304.54,Low,False,2026-02-19,Business Owner,Self-Employed,377239.74,False,1,False,Joint
+SA00000122,Fahad Salem,763,2023-09-02,Saudi Arabia,Saudi,Jeddah,61,6012.5,Medium,True,2025-11-13,Retired,Private Sector,319829.23,False,0,True,Individual
+SA00000123,Bandar Mohammed,3104,2017-04-05,Saudi Arabia,Saudi,Buraidah,43,7344.05,Low,True,2025-10-24,Retired,Private Sector,213014.3,False,1,True,Joint
+SA00000124,Fahad Salem,369,2024-09-30,Saudi Arabia,Saudi,Jubail,32,5177.92,Low,True,2026-09-24,Student,Government,387792.67,True,0,True,Joint
+SA00000125,Reem Ibrahim,1156,2022-08-05,Saudi Arabia,Saudi,Khobar,78,288.58,Low,True,2025-10-27,Student,Not Employed,288757.55,False,0,False,Joint
+SA00000126,Bandar Mohammed,1762,2020-12-07,Egypt,Expatriate,Medina,52,897.56,Low,True,2026-09-25,Student,Government,384516.7,False,0,False,Joint
+SA00000127,Noura Abdullah,111,2025-06-15,Bahrain,Expatriate,Jeddah,78,2080.82,High,True,2025-09-09,Self-Employed,Private Sector,426489.22,False,0,False,Joint
+SA00000128,Abdullah Khalid,1461,2021-10-04,Saudi Arabia,Saudi,Medina,97,3527.42,High,True,2026-08-23,Business Owner,Self-Employed,413262.71,False,1,False,Individual
+SA00000129,Mohammed Ahmed,1372,2022-01-01,Saudi Arabia,Saudi,Mecca,43,1854.98,Medium,True,2026-03-28,Employed,Self-Employed,466366.76,True,0,False,Corporate
+SA00000130,Reem Ibrahim,602,2024-02-10,Germany,Expatriate,Jeddah,32,5583.62,High,False,2026-06-21,Self-Employed,Private Sector,176938.31,True,0,False,Joint
+SA00000131,Faisal Omar,2260,2019-07-28,Saudi Arabia,Saudi,Dhahran,16,3060.4,Low,False,2026-08-10,Self-Employed,Government,325505.43,False,0,False,Joint
+SA00000132,Fahad Salem,2356,2019-04-23,Pakistan,Expatriate,Khobar,19,989.84,Low,True,2026-03-24,Business Owner,Government,330182.31,True,0,True,Corporate
+SA00000133,Mohammed Ahmed,1901,2020-07-21,Saudi Arabia,Saudi,Mecca,74,4837.11,Medium,False,2025-09-06,Retired,Private Sector,147845.14,True,0,True,Corporate
+SA00000134,Maha Salem,311,2024-11-27,Saudi Arabia,Saudi,Jubail,92,3415.23,Low,True,2026-07-20,Student,Self-Employed,317485.69,False,0,False,Corporate
+SA00000135,Faisal Omar,205,2025-03-13,Saudi Arabia,Saudi,Jeddah,9,1673.49,High,True,2025-11-12,Student,Private Sector,4632.14,False,0,True,Individual
+SA00000136,Reem Ibrahim,580,2024-03-03,Bahrain,Expatriate,Dammam,86,2221.47,Low,False,2025-11-02,Business Owner,Private Sector,296192.85,False,0,True,Joint
+SA00000137,Saad Abdullah,1743,2020-12-26,Saudi Arabia,Saudi,Dhahran,38,5622.35,High,True,2026-06-22,Self-Employed,Private Sector,253075.33,False,1,True,Corporate
+SA00000138,Faisal Omar,3120,2017-03-20,Saudi Arabia,Saudi,Jeddah,95,2049.61,Low,False,2025-11-12,Student,Government,227029.62,False,0,True,Joint
+SA00000139,Abdullah Khalid,3261,2016-10-30,Saudi Arabia,Saudi,Dhahran,39,6250.15,Low,True,2026-02-07,Self-Employed,Government,253874.94,False,1,True,Corporate
+SA00000140,Khalid Ibrahim,2127,2019-12-08,Saudi Arabia,Saudi,Jubail,34,1872.7,Low,False,2026-04-22,Employed,Self-Employed,47599.4,False,1,False,Joint
+SA00000141,Khalid Ibrahim,1459,2021-10-06,Saudi Arabia,Saudi,Buraidah,86,7012.11,Low,True,2026-06-10,Self-Employed,Not Employed,67053.51,False,0,False,Corporate
+SA00000142,Maha Salem,2713,2018-05-01,Saudi Arabia,Saudi,Mecca,34,7176.62,High,True,2026-09-09,Retired,Not Employed,231181.73,False,0,False,Individual
+SA00000143,Noura Abdullah,261,2025-01-16,Saudi Arabia,Saudi,Jubail,68,5577.84,Low,True,2026-06-20,Self-Employed,Private Sector,135725.94,False,1,False,Individual
+SA00000144,Bandar Mohammed,2956,2017-08-31,Turkey,Expatriate,Jeddah,86,7404.06,Low,True,2026-06-09,Student,Government,293897.16,True,0,False,Joint
+SA00000145,Maha Salem,1077,2022-10-23,USA,Expatriate,Medina,28,1584.16,Low,False,2026-02-03,Self-Employed,Private Sector,145161.5,False,2,False,Individual
+SA00000146,Abdullah Khalid,438,2024-07-23,UAE,Expatriate,Riyadh,29,2582.73,High,False,2025-10-24,Student,Private Sector,25605.13,False,0,True,Corporate
+SA00000147,Reem Ibrahim,259,2025-01-18,Saudi Arabia,Saudi,Mecca,9,448.02,Low,True,2026-03-23,Student,Private Sector,35504.18,False,0,True,Joint
+SA00000148,Faisal Omar,70,2025-07-26,Saudi Arabia,Saudi,Taif,65,4918.34,Low,True,2025-10-23,Student,Private Sector,68712.47,True,0,False,Corporate
+SA00000149,Saad Abdullah,2550,2018-10-11,Saudi Arabia,Saudi,Jeddah,29,6070.55,Low,False,2025-11-30,Self-Employed,Government,55023.96,True,0,False,Joint
+SA00000150,Sarah Ahmed,339,2024-10-30,UK,Expatriate,Taif,23,1647.98,Low,True,2026-02-12,Retired,Not Employed,396277.42,False,0,False,Joint
+SA00000151,Maha Salem,1971,2020-05-12,Saudi Arabia,Saudi,Riyadh,63,2203.32,Low,False,2025-10-01,Self-Employed,Private Sector,379908.35,False,0,False,Corporate
+SA00000152,Sarah Ahmed,410,2024-08-20,Saudi Arabia,Saudi,Dhahran,6,1323.75,Low,True,2026-07-01,Retired,Government,71387.08,False,1,False,Corporate
+SA00000153,Maha Salem,3297,2016-09-24,France,Expatriate,Mecca,53,5012.79,Low,True,2026-04-07,Retired,Self-Employed,47639.5,False,0,True,Individual
+SA00000154,Maha Salem,2498,2018-12-02,Turkey,Expatriate,Jubail,76,388.03,Low,True,2026-02-27,Retired,Self-Employed,56417.41,False,0,False,Individual
+SA00000155,Reem Ibrahim,1339,2022-02-03,Saudi Arabia,Saudi,Buraidah,79,7393.06,Low,True,2026-04-12,Business Owner,Not Employed,496687.18,False,2,True,Corporate
+SA00000156,Nasser Ali,2307,2019-06-11,USA,Expatriate,Mecca,32,3816.15,Low,True,2026-05-18,Business Owner,Self-Employed,156324.79,False,0,False,Corporate
+SA00000157,Abdullah Khalid,2342,2019-05-07,Saudi Arabia,Saudi,Tabuk,9,4027.43,High,True,2025-10-17,Student,Self-Employed,22284.24,False,1,False,Corporate
+SA00000158,Khalid Ibrahim,3444,2016-04-30,Saudi Arabia,Saudi,Khobar,34,2373.1,Low,False,2026-01-20,Student,Government,252332.76,False,0,True,Corporate
+SA00000159,Fahad Salem,1798,2020-11-01,Saudi Arabia,Saudi,Mecca,96,6874.33,Low,True,2025-11-28,Self-Employed,Not Employed,343316.46,False,0,False,Corporate
+SA00000160,Khalid Ibrahim,3628,2015-10-29,Saudi Arabia,Saudi,Medina,5,675.48,Low,False,2026-01-09,Retired,Not Employed,226991.8,True,0,False,Individual
+SA00000161,Sultan Mansour,526,2024-04-26,Saudi Arabia,Saudi,Jeddah,56,6426.91,Low,True,2026-03-19,Business Owner,Private Sector,410289.79,False,2,True,Individual
+SA00000162,Maha Salem,3069,2017-05-10,Germany,Expatriate,Jubail,96,5018.65,Medium,True,2026-06-08,Retired,Self-Employed,271891.67,False,1,True,Corporate
+SA00000163,Khalid Ibrahim,1621,2021-04-27,Saudi Arabia,Saudi,Riyadh,11,379.85,High,True,2026-08-20,Self-Employed,Private Sector,217563.74,False,2,False,Corporate
+SA00000164,Turki Fahad,423,2024-08-07,Saudi Arabia,Saudi,Jeddah,45,921.24,High,True,2026-08-25,Retired,Self-Employed,250873.63,True,0,False,Individual
+SA00000165,Sultan Mansour,2634,2018-07-19,Saudi Arabia,Saudi,Abha,6,733.63,Low,True,2026-09-29,Self-Employed,Self-Employed,206730.04,False,0,False,Corporate
+SA00000166,Bandar Mohammed,1190,2022-07-02,Saudi Arabia,Saudi,Jubail,39,6933.2,Medium,False,2025-11-18,Employed,Government,29750.81,False,0,False,Individual
+SA00000167,Turki Fahad,2850,2017-12-15,Saudi Arabia,Saudi,Mecca,22,5290.42,High,False,2026-07-06,Retired,Government,75071.26,False,0,False,Joint
+SA00000168,Reem Ibrahim,2081,2020-01-23,Saudi Arabia,Saudi,Jeddah,68,2244.22,Low,True,2026-05-01,Self-Employed,Self-Employed,318768.15,False,0,False,Individual
+SA00000169,Saad Abdullah,1440,2021-10-25,Saudi Arabia,Saudi,Riyadh,6,2498.34,Low,True,2026-10-04,Business Owner,Private Sector,276054.4,False,0,False,Joint
+SA00000170,Sarah Ahmed,314,2024-11-24,Oman,Expatriate,Abha,46,2898.42,Low,True,2026-08-10,Student,Government,441743.08,False,0,False,Individual
+SA00000171,Nasser Ali,1113,2022-09-17,Saudi Arabia,Saudi,Dhahran,8,619.5,Low,True,2026-05-29,Self-Employed,Not Employed,43789.63,False,2,False,Individual
+SA00000172,Noura Abdullah,2355,2019-04-24,Saudi Arabia,Saudi,Abha,59,735.42,Low,True,2025-09-19,Retired,Self-Employed,6258.41,False,0,False,Individual
+SA00000173,Nasser Ali,1308,2022-03-06,Saudi Arabia,Saudi,Jubail,10,7771.03,Low,True,2025-11-16,Student,Not Employed,493794.09,False,0,False,Individual
+SA00000174,Khalid Ibrahim,1393,2021-12-11,Saudi Arabia,Saudi,Riyadh,51,4093.92,Low,True,2026-05-13,Self-Employed,Self-Employed,117821.78,True,0,False,Corporate
+SA00000175,Fahad Salem,2220,2019-09-06,Oman,Expatriate,Khobar,17,6045.74,Low,False,2026-08-12,Self-Employed,Not Employed,226805.07,False,1,True,Corporate
+SA00000176,Reem Ibrahim,1468,2021-09-27,UK,Expatriate,Mecca,21,2353.28,Low,False,2026-04-01,Business Owner,Not Employed,255563.04,False,1,False,Corporate
+SA00000177,Abdullah Khalid,3429,2016-05-15,Oman,Expatriate,Tabuk,12,5185.07,Low,True,2025-09-22,Student,Government,403235.05,False,1,True,Corporate
+SA00000178,Khalid Ibrahim,544,2024-04-08,Saudi Arabia,Saudi,Khobar,39,6531.22,Low,True,2026-02-08,Student,Not Employed,274068.04,False,0,False,Corporate
+SA00000179,Sultan Mansour,3484,2016-03-21,Pakistan,Expatriate,Mecca,50,2202.87,Low,True,2026-03-27,Retired,Self-Employed,321587.64,False,0,False,Joint
+SA00000180,Khalid Ibrahim,3200,2016-12-30,Kuwait,Expatriate,Buraidah,23,3816.07,Low,False,2026-01-01,Retired,Private Sector,169012.91,True,0,False,Joint
+SA00000181,Turki Fahad,2193,2019-10-03,Saudi Arabia,Saudi,Dammam,80,6450.69,High,True,2026-03-30,Student,Self-Employed,433152.59,False,0,False,Individual
+SA00000182,Abdullah Khalid,774,2023-08-22,Saudi Arabia,Saudi,Mecca,52,2625.82,Low,True,2026-09-10,Self-Employed,Private Sector,431663.33,False,2,True,Individual
+SA00000183,Noura Abdullah,2533,2018-10-28,Saudi Arabia,Saudi,Buraidah,59,232.69,Low,False,2025-11-15,Employed,Not Employed,26909.26,False,0,False,Individual
+SA00000184,Bandar Mohammed,460,2024-07-01,Saudi Arabia,Saudi,Taif,75,6658.96,High,True,2025-10-15,Employed,Self-Employed,16700.65,False,0,False,Corporate
+SA00000185,Abdullah Khalid,1015,2022-12-24,Saudi Arabia,Saudi,Jubail,68,6030.8,High,False,2026-09-29,Business Owner,Not Employed,23270.8,False,2,True,Individual
+SA00000186,Noura Abdullah,2830,2018-01-04,Saudi Arabia,Saudi,Tabuk,11,5829.72,Low,True,2026-06-28,Retired,Not Employed,410827.07,False,0,False,Joint
+SA00000187,Khalid Ibrahim,345,2024-10-24,Saudi Arabia,Saudi,Taif,48,1942.96,High,True,2026-08-31,Employed,Government,236537.85,False,1,True,Joint
+SA00000188,Fahad Salem,1961,2020-05-22,Saudi Arabia,Saudi,Taif,81,6131.53,Low,False,2025-10-31,Student,Government,213662.61,True,2,False,Joint
+SA00000189,Fahad Salem,3449,2016-04-25,Qatar,Expatriate,Medina,91,4846.63,High,False,2026-01-10,Student,Not Employed,387559.52,True,0,True,Corporate
+SA00000190,Saad Abdullah,195,2025-03-23,Saudi Arabia,Saudi,Dhahran,76,6933.67,Low,True,2026-01-28,Business Owner,Government,337031.34,True,0,False,Corporate
+SA00000191,Fahad Salem,90,2025-07-06,Saudi Arabia,Saudi,Abha,37,5419.21,Low,True,2026-10-02,Self-Employed,Private Sector,438231.31,False,0,False,Corporate
+SA00000192,Nasser Ali,3263,2016-10-28,Saudi Arabia,Saudi,Tabuk,90,6154.66,High,True,2026-04-25,Retired,Not Employed,333357.71,False,0,True,Joint
+SA00000193,Nasser Ali,301,2024-12-07,Saudi Arabia,Saudi,Tabuk,93,1123.47,High,True,2026-08-26,Self-Employed,Government,161266.1,False,0,False,Individual
+SA00000194,Mohammed Ahmed,327,2024-11-11,France,Expatriate,Riyadh,32,1741.47,Low,True,2025-11-23,Retired,Private Sector,351556.73,False,1,False,Joint
+SA00000195,Turki Fahad,1211,2022-06-11,Saudi Arabia,Saudi,Dammam,69,714.48,Low,True,2026-02-05,Employed,Not Employed,300543.17,False,0,False,Individual
+SA00000196,Abdullah Khalid,633,2024-01-10,Saudi Arabia,Saudi,Khobar,14,3141.04,Low,False,2026-08-27,Retired,Not Employed,356601.11,False,0,False,Individual
+SA00000197,Abdullah Khalid,2282,2019-07-06,Saudi Arabia,Saudi,Jeddah,5,2741.64,Low,True,2026-05-17,Student,Self-Employed,384469.35,False,0,True,Individual
+SA00000198,Khalid Ibrahim,1965,2020-05-18,Saudi Arabia,Saudi,Buraidah,48,2703.42,Low,True,2026-06-10,Employed,Not Employed,453849.88,False,0,False,Individual
+SA00000199,Bandar Mohammed,3163,2017-02-05,Saudi Arabia,Saudi,Taif,69,968.01,Low,True,2025-11-22,Student,Government,381332.4,True,0,False,Individual
+SA00000200,Fahad Salem,107,2025-06-19,Turkey,Expatriate,Dammam,60,6115.35,Low,True,2026-04-08,Student,Not Employed,71102.54,False,0,True,Individual
+SA00000201,Khalid Ibrahim,1916,2020-07-06,Saudi Arabia,Saudi,Riyadh,69,3817.99,Low,False,2026-01-16,Student,Private Sector,240836.64,False,0,False,Corporate
+SA00000202,Khalid Ibrahim,1287,2022-03-27,Saudi Arabia,Saudi,Buraidah,7,6255.27,Medium,True,2025-10-11,Retired,Self-Employed,352986.07,False,0,False,Individual
+SA00000203,Sultan Mansour,1391,2021-12-13,Saudi Arabia,Saudi,Dhahran,92,4319.0,Low,False,2025-12-08,Business Owner,Self-Employed,498517.33,False,0,True,Corporate
+SA00000204,Saad Abdullah,72,2025-07-24,Saudi Arabia,Saudi,Abha,53,5528.9,Low,False,2025-10-08,Self-Employed,Self-Employed,104518.79,True,0,True,Corporate
+SA00000205,Bandar Mohammed,1496,2021-08-30,Saudi Arabia,Saudi,Mecca,32,7166.31,Medium,False,2026-07-11,Employed,Not Employed,448012.46,False,0,True,Joint
+SA00000206,Mohammed Ahmed,752,2023-09-13,Saudi Arabia,Saudi,Jubail,47,6285.34,Low,True,2025-09-07,Retired,Government,343808.43,True,0,True,Individual
+SA00000207,Abdullah Khalid,3070,2017-05-09,India,Expatriate,Tabuk,62,3546.7,Low,True,2026-02-11,Self-Employed,Self-Employed,206041.2,False,2,True,Joint
+SA00000208,Noura Abdullah,2077,2020-01-27,India,Expatriate,Khobar,37,1438.52,Low,True,2026-01-05,Business Owner,Self-Employed,74007.71,False,0,False,Corporate
+SA00000209,Noura Abdullah,1895,2020-07-27,Saudi Arabia,Saudi,Medina,28,665.16,Low,True,2026-07-30,Self-Employed,Not Employed,52092.08,False,0,False,Joint
+SA00000210,Bandar Mohammed,1774,2020-11-25,Bahrain,Expatriate,Taif,18,3498.89,Low,True,2025-11-23,Business Owner,Self-Employed,57453.01,False,1,True,Joint
+SA00000211,Faisal Omar,162,2025-04-25,Saudi Arabia,Saudi,Mecca,18,6717.26,High,True,2025-12-19,Business Owner,Private Sector,93996.64,False,2,True,Joint
+SA00000212,Reem Ibrahim,421,2024-08-09,Saudi Arabia,Saudi,Dammam,28,5493.14,Low,False,2025-10-13,Employed,Not Employed,273410.41,False,0,True,Individual
+SA00000213,Abdullah Khalid,3332,2016-08-20,Saudi Arabia,Saudi,Dhahran,29,3676.06,Low,True,2026-08-20,Employed,Government,145957.05,False,0,False,Corporate
+SA00000214,Sultan Mansour,781,2023-08-15,Lebanon,Expatriate,Dhahran,78,1946.24,Low,False,2025-11-24,Business Owner,Self-Employed,391368.61,False,0,False,Joint
+SA00000215,Mohammed Ahmed,2335,2019-05-14,Saudi Arabia,Saudi,Jubail,55,6098.61,Low,True,2025-10-05,Self-Employed,Self-Employed,308083.22,True,1,False,Individual
+SA00000216,Bandar Mohammed,3053,2017-05-26,Saudi Arabia,Saudi,Medina,21,3803.74,Low,False,2025-12-05,Business Owner,Government,80452.63,True,0,True,Individual
+SA00000217,Mohammed Ahmed,2701,2018-05-13,Saudi Arabia,Saudi,Dammam,77,6573.41,Low,True,2026-04-12,Student,Not Employed,197868.86,False,0,True,Individual
+SA00000218,Khalid Ibrahim,1487,2021-09-08,Saudi Arabia,Saudi,Tabuk,67,2265.24,High,True,2025-09-15,Student,Government,253079.91,True,0,False,Individual
+SA00000219,Saad Abdullah,3094,2017-04-15,Pakistan,Expatriate,Dhahran,7,1523.24,High,True,2026-08-10,Employed,Private Sector,297713.42,False,0,False,Corporate
+SA00000220,Maha Salem,3643,2015-10-14,Saudi Arabia,Saudi,Medina,84,454.08,Low,True,2026-06-30,Self-Employed,Private Sector,449426.75,False,0,False,Individual
+SA00000221,Fahad Salem,56,2025-08-09,Saudi Arabia,Saudi,Medina,50,724.44,Low,True,2026-08-03,Retired,Self-Employed,426826.75,False,0,False,Corporate
+SA00000222,Lama Khalid,1375,2021-12-29,Saudi Arabia,Saudi,Jubail,92,7200.2,Low,False,2026-06-28,Business Owner,Self-Employed,347723.73,False,1,False,Individual
+SA00000223,Fahad Salem,3614,2015-11-12,Saudi Arabia,Saudi,Dammam,36,3274.09,Low,False,2025-11-10,Employed,Government,173736.4,True,2,False,Individual
+SA00000224,Lama Khalid,3436,2016-05-08,Saudi Arabia,Saudi,Dammam,39,905.63,High,True,2026-04-19,Retired,Not Employed,156871.93,True,1,False,Individual
+SA00000225,Khalid Ibrahim,614,2024-01-29,Saudi Arabia,Saudi,Taif,56,1745.09,Medium,False,2026-02-09,Business Owner,Self-Employed,139288.67,False,0,True,Individual
+SA00000226,Abdullah Khalid,2655,2018-06-28,Saudi Arabia,Saudi,Tabuk,31,7233.16,Low,True,2026-07-01,Self-Employed,Private Sector,198063.85,False,2,False,Individual
+SA00000227,Khalid Ibrahim,1555,2021-07-02,UK,Expatriate,Mecca,59,6868.77,Low,False,2026-02-14,Self-Employed,Not Employed,126311.32,False,0,False,Joint
+SA00000228,Saad Abdullah,523,2024-04-29,Jordan,Expatriate,Riyadh,5,4654.44,Low,True,2026-02-12,Self-Employed,Self-Employed,31011.67,False,2,False,Individual
+SA00000229,Khalid Ibrahim,2860,2017-12-05,Saudi Arabia,Saudi,Khobar,50,277.48,Low,True,2025-12-20,Self-Employed,Government,291152.4,False,0,False,Joint
+SA00000230,Maha Salem,2149,2019-11-16,Saudi Arabia,Saudi,Taif,67,7355.14,Medium,True,2026-01-15,Student,Private Sector,187493.69,False,0,False,Individual
+SA00000231,Maha Salem,2930,2017-09-26,Saudi Arabia,Saudi,Dammam,85,6423.58,Low,True,2026-07-03,Self-Employed,Government,151604.3,True,0,True,Individual
+SA00000232,Sarah Ahmed,2048,2020-02-25,UK,Expatriate,Tabuk,30,7700.81,Low,True,2026-07-02,Business Owner,Not Employed,177467.93,False,1,False,Individual
+SA00000233,Noura Abdullah,1943,2020-06-09,Saudi Arabia,Saudi,Buraidah,90,2460.72,Medium,True,2025-10-03,Business Owner,Self-Employed,318451.64,False,2,False,Joint
+SA00000234,Faisal Omar,3203,2016-12-27,Saudi Arabia,Saudi,Jubail,60,5742.69,Medium,True,2026-03-30,Self-Employed,Government,369958.21,False,0,True,Individual
+SA00000235,Sultan Mansour,1514,2021-08-12,Saudi Arabia,Saudi,Medina,86,7024.19,Low,True,2026-06-30,Student,Private Sector,277946.85,False,0,False,Individual
+SA00000236,Fahad Salem,2214,2019-09-12,Saudi Arabia,Saudi,Khobar,98,6407.35,Medium,True,2026-09-26,Retired,Not Employed,86465.62,False,0,False,Individual
+SA00000237,Maha Salem,401,2024-08-29,Saudi Arabia,Saudi,Mecca,25,2116.33,Low,True,2026-01-29,Business Owner,Private Sector,297213.81,False,1,True,Corporate
+SA00000238,Noura Abdullah,3435,2016-05-09,Saudi Arabia,Saudi,Taif,10,1248.16,Medium,True,2026-01-16,Retired,Government,481455.09,False,0,False,Individual
+SA00000239,Maha Salem,1984,2020-04-29,Saudi Arabia,Saudi,Dammam,87,506.84,Low,True,2025-09-29,Employed,Private Sector,123182.36,False,1,False,Individual
+SA00000240,Maha Salem,1250,2022-05-03,Saudi Arabia,Saudi,Taif,16,877.38,High,True,2026-03-18,Employed,Government,210226.08,False,1,False,Corporate
+SA00000241,Mohammed Ahmed,2729,2018-04-15,India,Expatriate,Dhahran,40,3321.82,Medium,True,2026-05-04,Student,Private Sector,195765.7,False,2,False,Individual
+SA00000242,Faisal Omar,2374,2019-04-05,Saudi Arabia,Saudi,Medina,64,1553.02,Low,False,2025-10-20,Student,Not Employed,329687.87,False,2,False,Individual
+SA00000243,Nasser Ali,3251,2016-11-09,Saudi Arabia,Saudi,Jeddah,6,5214.73,High,True,2026-01-26,Employed,Not Employed,150185.3,False,2,False,Corporate
+SA00000244,Reem Ibrahim,1160,2022-08-01,Saudi Arabia,Saudi,Dammam,19,7340.07,Low,False,2025-12-04,Student,Not Employed,329416.93,False,1,False,Corporate
+SA00000245,Mohammed Ahmed,3110,2017-03-30,USA,Expatriate,Jubail,31,6362.31,High,True,2025-12-05,Business Owner,Government,409485.33,False,0,True,Corporate
+SA00000246,Turki Fahad,439,2024-07-22,Saudi Arabia,Saudi,Buraidah,61,354.23,Low,False,2026-07-18,Business Owner,Private Sector,86631.54,False,0,False,Corporate
+SA00000247,Sultan Mansour,1853,2020-09-07,Saudi Arabia,Saudi,Dammam,39,806.6,Medium,True,2025-12-25,Retired,Self-Employed,214486.12,False,0,True,Joint
+SA00000248,Bandar Mohammed,1867,2020-08-24,Saudi Arabia,Saudi,Riyadh,26,2999.7,Low,True,2026-09-20,Self-Employed,Not Employed,421112.31,False,0,False,Corporate
+SA00000249,Khalid Ibrahim,738,2023-09-27,USA,Expatriate,Jubail,95,2276.52,Low,True,2026-07-05,Retired,Private Sector,250679.48,False,2,False,Corporate
+SA00000250,Abdullah Khalid,744,2023-09-21,Saudi Arabia,Saudi,Dhahran,97,2372.51,Low,True,2025-09-20,Business Owner,Private Sector,238739.32,False,0,True,Individual
+SA00000251,Maha Salem,2031,2020-03-13,Saudi Arabia,Saudi,Abha,86,3402.41,Low,True,2025-12-26,Student,Self-Employed,138265.78,False,0,True,Joint
+SA00000252,Turki Fahad,367,2024-10-02,Germany,Expatriate,Abha,49,7052.07,Low,False,2026-05-01,Self-Employed,Not Employed,377631.67,False,1,False,Corporate
+SA00000253,Noura Abdullah,3643,2015-10-14,Saudi Arabia,Saudi,Jeddah,71,3107.58,High,True,2025-10-04,Self-Employed,Not Employed,237951.28,False,1,False,Individual
+SA00000254,Mohammed Ahmed,1400,2021-12-04,Saudi Arabia,Saudi,Jubail,63,5268.53,High,False,2025-09-14,Retired,Private Sector,181988.79,False,0,False,Individual
+SA00000255,Khalid Ibrahim,2921,2017-10-05,Saudi Arabia,Saudi,Taif,39,7335.81,High,True,2025-12-21,Employed,Not Employed,241781.97,False,2,False,Individual
+SA00000256,Noura Abdullah,1959,2020-05-24,Bahrain,Expatriate,Buraidah,22,1627.68,Low,False,2026-04-02,Student,Self-Employed,388162.71,True,0,True,Joint
+SA00000257,Khalid Ibrahim,1377,2021-12-27,India,Expatriate,Abha,81,6505.04,Low,False,2026-05-03,Self-Employed,Not Employed,102572.99,False,2,True,Corporate
+SA00000258,Maha Salem,3068,2017-05-11,Saudi Arabia,Saudi,Khobar,86,2716.69,Low,True,2026-06-23,Self-Employed,Private Sector,414303.69,False,0,False,Joint
+SA00000259,Noura Abdullah,3163,2017-02-05,Kuwait,Expatriate,Buraidah,56,5525.79,Medium,True,2026-03-31,Student,Private Sector,93816.1,False,0,True,Individual
+SA00000260,Khalid Ibrahim,1973,2020-05-10,Saudi Arabia,Saudi,Tabuk,79,1583.03,High,True,2026-08-14,Business Owner,Private Sector,245523.76,True,0,True,Joint
+SA00000261,Lama Khalid,3649,2015-10-08,Saudi Arabia,Saudi,Medina,34,3816.47,Medium,True,2026-06-04,Student,Self-Employed,305567.61,False,0,False,Individual
+SA00000262,Noura Abdullah,874,2023-05-14,Saudi Arabia,Saudi,Jubail,80,4377.39,Low,True,2026-08-15,Self-Employed,Self-Employed,151592.2,True,2,False,Individual
+SA00000263,Lama Khalid,1499,2021-08-27,Saudi Arabia,Saudi,Tabuk,83,7831.48,Medium,True,2026-03-17,Business Owner,Private Sector,32222.95,False,1,True,Individual
+SA00000264,Sultan Mansour,1536,2021-07-21,Saudi Arabia,Saudi,Tabuk,72,1466.77,Low,True,2026-06-18,Business Owner,Self-Employed,329515.13,False,0,False,Joint
+SA00000265,Noura Abdullah,1938,2020-06-14,Saudi Arabia,Saudi,Buraidah,19,3431.43,High,True,2026-03-20,Student,Self-Employed,331830.18,False,0,False,Individual
+SA00000266,Maha Salem,2694,2018-05-20,Lebanon,Expatriate,Tabuk,97,5333.72,High,True,2026-02-19,Employed,Private Sector,469771.45,False,0,True,Individual
+SA00000267,Sarah Ahmed,1718,2021-01-20,Saudi Arabia,Saudi,Dammam,10,3680.88,Low,True,2025-09-19,Business Owner,Government,259031.9,False,0,False,Corporate
+SA00000268,Fahad Salem,2195,2019-10-01,Saudi Arabia,Saudi,Tabuk,58,4492.09,Low,True,2026-05-31,Retired,Government,330426.43,False,0,False,Joint
+SA00000269,Fahad Salem,2344,2019-05-05,Saudi Arabia,Saudi,Abha,87,3842.03,Low,True,2025-10-12,Student,Government,211779.68,True,2,False,Joint
+SA00000270,Abdullah Khalid,3546,2016-01-19,Oman,Expatriate,Taif,56,3256.92,Low,True,2026-06-02,Self-Employed,Government,120433.82,False,0,False,Joint
+SA00000271,Khalid Ibrahim,1755,2020-12-14,Saudi Arabia,Saudi,Abha,38,2388.77,Low,True,2026-07-05,Student,Private Sector,321141.55,False,1,True,Individual
+SA00000272,Mohammed Ahmed,761,2023-09-04,Saudi Arabia,Saudi,Jubail,100,2502.83,Low,True,2025-11-26,Retired,Private Sector,204207.02,False,1,False,Individual
+SA00000273,Faisal Omar,1908,2020-07-14,Saudi Arabia,Saudi,Medina,6,1624.59,Low,False,2026-03-30,Employed,Private Sector,305217.41,False,0,False,Corporate
+SA00000274,Faisal Omar,1567,2021-06-20,Saudi Arabia,Saudi,Mecca,93,2605.04,Low,True,2025-12-26,Student,Self-Employed,250865.46,False,2,True,Corporate
+SA00000275,Mohammed Ahmed,2813,2018-01-21,Saudi Arabia,Saudi,Medina,56,6651.14,Low,True,2025-11-03,Retired,Not Employed,499039.75,False,1,False,Corporate
+SA00000276,Fahad Salem,1713,2021-01-25,Egypt,Expatriate,Mecca,34,3537.52,Medium,False,2026-04-29,Business Owner,Not Employed,142210.05,False,0,False,Joint
+SA00000277,Maha Salem,2352,2019-04-27,Saudi Arabia,Saudi,Taif,90,7259.62,Low,True,2026-01-13,Self-Employed,Not Employed,92667.19,False,1,False,Individual
+SA00000278,Nasser Ali,1737,2021-01-01,Kuwait,Expatriate,Taif,77,4750.57,Low,True,2026-02-27,Student,Private Sector,294199.86,True,2,False,Individual
+SA00000279,Turki Fahad,3108,2017-04-01,Saudi Arabia,Saudi,Jubail,66,6948.26,Medium,False,2026-09-02,Student,Not Employed,305652.06,False,0,False,Corporate
+SA00000280,Sultan Mansour,1041,2022-11-28,Saudi Arabia,Saudi,Buraidah,27,581.07,Low,True,2025-10-22,Retired,Private Sector,301759.71,False,1,False,Individual
+SA00000281,Mohammed Ahmed,1678,2021-03-01,Saudi Arabia,Saudi,Riyadh,5,7195.08,Low,True,2025-09-29,Student,Not Employed,73823.65,True,2,False,Corporate
+SA00000282,Mohammed Ahmed,3523,2016-02-11,Saudi Arabia,Saudi,Dammam,98,7499.11,Low,True,2026-02-04,Employed,Government,102460.56,True,0,False,Individual
+SA00000283,Mohammed Ahmed,572,2024-03-11,USA,Expatriate,Abha,46,6696.02,Medium,True,2025-11-24,Self-Employed,Self-Employed,454341.06,False,1,False,Individual
+SA00000284,Faisal Omar,986,2023-01-22,Saudi Arabia,Saudi,Medina,8,4647.78,Medium,False,2026-04-11,Business Owner,Government,311381.44,False,1,True,Individual
+SA00000285,Maha Salem,2688,2018-05-26,Saudi Arabia,Saudi,Khobar,56,4364.8,Low,True,2026-05-04,Retired,Private Sector,314159.8,False,0,True,Corporate
+SA00000286,Nasser Ali,2185,2019-10-11,Saudi Arabia,Saudi,Tabuk,47,7829.73,Low,True,2025-09-07,Retired,Private Sector,397803.64,False,0,False,Individual
+SA00000287,Khalid Ibrahim,1332,2022-02-10,Saudi Arabia,Saudi,Jeddah,89,1714.54,High,True,2026-03-30,Employed,Government,26388.99,False,0,False,Joint
+SA00000288,Saad Abdullah,330,2024-11-08,Saudi Arabia,Saudi,Khobar,12,1960.89,Low,True,2025-09-27,Self-Employed,Self-Employed,416746.33,True,1,False,Joint
+SA00000289,Saad Abdullah,2142,2019-11-23,Saudi Arabia,Saudi,Medina,31,3785.05,Low,True,2026-09-13,Self-Employed,Self-Employed,425966.17,False,0,True,Corporate
+SA00000290,Sultan Mansour,3223,2016-12-07,Saudi Arabia,Saudi,Taif,60,400.25,High,False,2025-11-08,Self-Employed,Self-Employed,493229.32,False,2,True,Corporate
+SA00000291,Lama Khalid,342,2024-10-27,Saudi Arabia,Saudi,Tabuk,14,6334.14,Low,True,2025-10-19,Student,Private Sector,480526.3,False,1,False,Individual
+SA00000292,Nasser Ali,1470,2021-09-25,Saudi Arabia,Saudi,Medina,37,488.91,Low,True,2026-05-22,Employed,Self-Employed,173485.21,False,2,False,Corporate
+SA00000293,Sultan Mansour,1097,2022-10-03,UK,Expatriate,Abha,51,2141.24,Low,False,2025-09-28,Student,Not Employed,1845.07,False,0,False,Individual
+SA00000294,Reem Ibrahim,1336,2022-02-06,Saudi Arabia,Saudi,Dammam,20,4408.69,Low,True,2026-07-10,Business Owner,Private Sector,89516.43,True,0,False,Joint
+SA00000295,Lama Khalid,1642,2021-04-06,Oman,Expatriate,Jubail,98,511.26,High,True,2026-06-09,Business Owner,Not Employed,342404.11,False,2,False,Joint
+SA00000296,Turki Fahad,2217,2019-09-09,Saudi Arabia,Expatriate,Mecca,55,2709.23,High,True,2025-10-20,Student,Self-Employed,346178.57,True,0,False,Joint
+SA00000297,Noura Abdullah,1433,2021-11-01,Saudi Arabia,Saudi,Dhahran,21,1760.68,Low,False,2026-02-04,Retired,Government,251817.21,True,0,True,Corporate
+SA00000298,Noura Abdullah,2100,2020-01-04,Saudi Arabia,Saudi,Tabuk,76,3967.15,Low,True,2025-09-25,Employed,Government,270655.27,False,0,False,Individual
+SA00000299,Maha Salem,2818,2018-01-16,Saudi Arabia,Saudi,Mecca,54,3152.86,Low,True,2026-06-06,Retired,Self-Employed,280658.17,False,0,True,Individual
+SA00000300,Abdullah Khalid,2725,2018-04-19,Saudi Arabia,Saudi,Jeddah,81,5318.34,Low,True,2026-04-24,Self-Employed,Private Sector,9535.69,False,1,True,Joint
+SA00000301,Saad Abdullah,1979,2020-05-04,Saudi Arabia,Saudi,Dammam,51,5747.11,Low,False,2026-09-10,Employed,Private Sector,459307.67,False,0,True,Individual
+SA00000302,Noura Abdullah,1629,2021-04-19,Saudi Arabia,Saudi,Jeddah,84,4663.9,Low,True,2026-04-07,Student,Not Employed,498902.18,False,0,False,Individual
+SA00000303,Lama Khalid,2909,2017-10-17,Saudi Arabia,Saudi,Tabuk,53,7398.22,Low,True,2025-09-10,Self-Employed,Not Employed,37299.38,True,0,False,Individual
+SA00000304,Maha Salem,2021,2020-03-23,Saudi Arabia,Saudi,Buraidah,62,246.31,Medium,False,2025-09-28,Retired,Government,196988.68,False,0,True,Individual
+SA00000305,Mohammed Ahmed,3426,2016-05-18,Pakistan,Expatriate,Riyadh,21,5901.29,Low,False,2026-01-18,Employed,Government,5969.02,False,1,False,Joint
+SA00000306,Mohammed Ahmed,705,2023-10-30,Saudi Arabia,Saudi,Jubail,35,5184.94,Low,True,2025-11-12,Employed,Self-Employed,169813.72,False,0,False,Joint
+SA00000307,Bandar Mohammed,2881,2017-11-14,Pakistan,Expatriate,Medina,19,4680.93,Low,False,2025-09-25,Employed,Not Employed,21977.46,False,0,True,Corporate
+SA00000308,Lama Khalid,1085,2022-10-15,Saudi Arabia,Saudi,Dammam,85,4806.18,Low,True,2026-02-14,Retired,Self-Employed,346896.15,False,0,False,Individual
+SA00000309,Turki Fahad,2613,2018-08-09,Saudi Arabia,Saudi,Jeddah,96,4474.59,Medium,True,2026-07-23,Retired,Private Sector,142055.07,False,0,True,Corporate
+SA00000310,Fahad Salem,3581,2015-12-15,Saudi Arabia,Saudi,Tabuk,92,3093.76,Low,False,2026-07-16,Student,Government,157791.21,False,0,False,Individual
+SA00000311,Lama Khalid,450,2024-07-11,USA,Expatriate,Mecca,44,4425.73,Low,False,2025-09-09,Retired,Not Employed,431914.53,False,0,True,Individual
+SA00000312,Faisal Omar,835,2023-06-22,Saudi Arabia,Saudi,Jeddah,51,4130.95,Low,True,2026-03-14,Self-Employed,Government,34391.85,False,2,False,Corporate
+SA00000313,Abdullah Khalid,3343,2016-08-09,India,Expatriate,Dhahran,11,2905.52,Medium,True,2026-03-14,Self-Employed,Private Sector,128202.2,False,0,False,Joint
+SA00000314,Saad Abdullah,1289,2022-03-25,Saudi Arabia,Saudi,Tabuk,38,641.59,Medium,True,2026-09-13,Retired,Private Sector,48988.37,False,2,True,Joint
+SA00000315,Noura Abdullah,1337,2022-02-05,Saudi Arabia,Saudi,Taif,20,4666.82,Low,False,2026-04-14,Retired,Not Employed,290577.86,False,0,True,Individual
+SA00000316,Reem Ibrahim,827,2023-06-30,Saudi Arabia,Saudi,Khobar,96,4936.73,Low,False,2026-03-25,Business Owner,Government,187440.53,False,0,False,Individual
+SA00000317,Saad Abdullah,3501,2016-03-04,Kuwait,Expatriate,Buraidah,38,2106.01,Low,True,2026-06-19,Self-Employed,Private Sector,13253.95,False,0,True,Individual
+SA00000318,Maha Salem,806,2023-07-21,Saudi Arabia,Saudi,Mecca,93,5710.45,Medium,True,2026-08-19,Self-Employed,Private Sector,282978.44,False,0,False,Individual
+SA00000319,Turki Fahad,3587,2015-12-09,Saudi Arabia,Saudi,Mecca,46,2072.57,Low,False,2026-04-27,Student,Private Sector,129514.51,False,0,False,Joint
+SA00000320,Noura Abdullah,946,2023-03-03,Saudi Arabia,Saudi,Buraidah,48,5283.3,Low,True,2026-01-04,Self-Employed,Government,287828.21,False,2,False,Individual
+SA00000321,Khalid Ibrahim,2556,2018-10-05,Jordan,Expatriate,Mecca,71,2375.42,Low,True,2026-02-03,Student,Government,302522.65,True,0,False,Joint
+SA00000322,Maha Salem,1387,2021-12-17,India,Expatriate,Jeddah,47,6773.38,Low,True,2026-03-22,Employed,Not Employed,162141.92,True,2,False,Individual
+SA00000323,Mohammed Ahmed,539,2024-04-13,Saudi Arabia,Saudi,Riyadh,96,6692.24,Low,True,2025-12-22,Self-Employed,Private Sector,386841.68,False,2,False,Individual
+SA00000324,Saad Abdullah,1870,2020-08-21,Germany,Expatriate,Medina,31,7526.02,Medium,True,2026-03-26,Student,Self-Employed,365191.57,False,0,False,Individual
+SA00000325,Khalid Ibrahim,244,2025-02-02,Saudi Arabia,Saudi,Dhahran,9,2813.45,Low,True,2026-07-20,Business Owner,Self-Employed,68068.39,False,0,False,Joint
+SA00000326,Noura Abdullah,3270,2016-10-21,Turkey,Expatriate,Jubail,11,1231.76,Medium,True,2025-09-13,Student,Not Employed,390859.86,False,1,False,Corporate
+SA00000327,Fahad Salem,1751,2020-12-18,Pakistan,Expatriate,Tabuk,5,6766.49,Medium,True,2025-09-11,Employed,Private Sector,353440.95,False,1,False,Joint
+SA00000328,Lama Khalid,3646,2015-10-11,Lebanon,Expatriate,Dhahran,98,753.6,High,False,2026-01-18,Retired,Not Employed,323021.59,False,0,False,Joint
+SA00000329,Bandar Mohammed,3096,2017-04-13,Lebanon,Expatriate,Tabuk,14,2209.96,High,False,2025-09-21,Business Owner,Self-Employed,407026.87,False,0,False,Individual
+SA00000330,Maha Salem,3204,2016-12-26,USA,Expatriate,Dammam,32,1194.96,Low,True,2026-03-18,Employed,Private Sector,50871.73,True,1,False,Joint
+SA00000331,Bandar Mohammed,1379,2021-12-25,Saudi Arabia,Saudi,Dammam,76,7475.73,Low,True,2025-09-12,Employed,Government,91635.02,False,0,False,Individual
+SA00000332,Bandar Mohammed,3374,2016-07-09,Saudi Arabia,Saudi,Buraidah,95,7340.28,Medium,True,2025-12-01,Self-Employed,Self-Employed,199146.99,False,2,True,Individual
+SA00000333,Khalid Ibrahim,557,2024-03-26,Saudi Arabia,Saudi,Taif,72,5215.09,Medium,True,2026-02-19,Business Owner,Self-Employed,34162.57,True,0,True,Joint
+SA00000334,Khalid Ibrahim,3025,2017-06-23,Saudi Arabia,Saudi,Jubail,97,2192.26,Low,False,2026-02-07,Student,Self-Employed,196011.79,False,1,True,Joint
+SA00000335,Sultan Mansour,2583,2018-09-08,UK,Expatriate,Medina,91,4424.3,Low,False,2025-11-21,Self-Employed,Not Employed,402090.49,False,1,False,Joint
+SA00000336,Abdullah Khalid,1738,2020-12-31,Saudi Arabia,Saudi,Dhahran,56,1232.79,Low,False,2026-02-16,Retired,Self-Employed,366361.22,True,0,False,Corporate
+SA00000337,Reem Ibrahim,2755,2018-03-20,UK,Expatriate,Khobar,46,6062.54,Low,False,2026-03-03,Employed,Private Sector,127755.47,False,0,False,Individual
+SA00000338,Turki Fahad,1612,2021-05-06,Saudi Arabia,Saudi,Taif,48,4263.95,Medium,True,2026-01-31,Employed,Self-Employed,36109.91,False,0,False,Corporate
+SA00000339,Fahad Salem,660,2023-12-14,Saudi Arabia,Saudi,Dammam,43,2228.09,High,False,2026-02-02,Employed,Private Sector,400936.91,False,0,True,Joint
+SA00000340,Turki Fahad,99,2025-06-27,Jordan,Expatriate,Khobar,65,6964.65,Low,False,2025-09-14,Self-Employed,Not Employed,97395.94,True,0,False,Individual
+SA00000341,Sarah Ahmed,2129,2019-12-06,Saudi Arabia,Saudi,Dhahran,12,1552.2,Low,True,2026-06-07,Business Owner,Private Sector,15683.2,True,0,False,Individual
+SA00000342,Bandar Mohammed,2766,2018-03-09,Saudi Arabia,Saudi,Riyadh,79,6207.23,Low,False,2026-07-06,Student,Not Employed,67897.27,False,0,False,Joint
+SA00000343,Khalid Ibrahim,478,2024-06-13,Saudi Arabia,Saudi,Khobar,54,4953.26,High,True,2026-02-03,Retired,Government,232287.33,False,0,True,Corporate
+SA00000344,Faisal Omar,2377,2019-04-02,Saudi Arabia,Saudi,Taif,86,5185.43,Low,True,2026-08-16,Employed,Self-Employed,292446.75,True,0,False,Joint
+SA00000345,Fahad Salem,34,2025-08-31,Lebanon,Expatriate,Dammam,23,5275.25,Low,True,2025-10-20,Retired,Private Sector,166395.71,False,1,False,Corporate
+SA00000346,Sultan Mansour,3488,2016-03-17,Saudi Arabia,Saudi,Mecca,10,1973.39,High,False,2026-08-10,Student,Not Employed,143208.53,False,0,False,Joint
+SA00000347,Sarah Ahmed,495,2024-05-27,Saudi Arabia,Saudi,Dammam,13,4205.19,Medium,True,2026-08-21,Business Owner,Private Sector,101132.56,True,1,False,Joint
+SA00000348,Sarah Ahmed,3252,2016-11-08,Saudi Arabia,Saudi,Buraidah,55,5631.38,Low,True,2026-06-23,Student,Private Sector,122723.94,False,0,True,Individual
+SA00000349,Turki Fahad,2989,2017-07-29,Saudi Arabia,Saudi,Dhahran,96,5057.14,Low,True,2026-04-27,Student,Not Employed,146621.51,True,0,False,Corporate
+SA00000350,Mohammed Ahmed,2896,2017-10-30,Saudi Arabia,Saudi,Dhahran,56,1617.99,High,True,2026-08-06,Employed,Self-Employed,46590.22,True,0,True,Joint
+SA00000351,Lama Khalid,1237,2022-05-16,Saudi Arabia,Saudi,Mecca,53,6621.96,Low,True,2026-04-04,Business Owner,Government,466815.31,False,0,False,Corporate
+SA00000352,Sarah Ahmed,931,2023-03-18,Saudi Arabia,Saudi,Taif,20,3712.42,High,True,2025-11-20,Self-Employed,Private Sector,236027.41,True,0,False,Joint
+SA00000353,Maha Salem,1325,2022-02-17,Lebanon,Expatriate,Jubail,74,5095.96,Medium,True,2026-08-13,Business Owner,Self-Employed,405054.94,False,1,False,Joint
+SA00000354,Sarah Ahmed,319,2024-11-19,Saudi Arabia,Saudi,Taif,58,4071.92,Low,True,2026-07-04,Business Owner,Government,494422.04,True,1,False,Corporate
+SA00000355,Turki Fahad,1925,2020-06-27,Saudi Arabia,Saudi,Jeddah,50,4748.85,Low,False,2026-07-09,Employed,Self-Employed,185112.15,True,2,True,Individual
+SA00000356,Turki Fahad,3416,2016-05-28,Egypt,Expatriate,Buraidah,38,4493.85,Medium,False,2025-12-18,Business Owner,Government,430691.65,False,2,True,Corporate
+SA00000357,Khalid Ibrahim,648,2023-12-26,Saudi Arabia,Saudi,Tabuk,56,5513.82,Low,True,2026-07-24,Business Owner,Government,316201.4,False,2,False,Joint
+SA00000358,Reem Ibrahim,663,2023-12-11,Saudi Arabia,Saudi,Tabuk,87,6355.07,High,False,2026-08-05,Employed,Private Sector,407831.93,False,2,True,Individual
+SA00000359,Noura Abdullah,1619,2021-04-29,UAE,Expatriate,Jeddah,11,3746.52,Low,True,2026-05-08,Self-Employed,Private Sector,194117.31,True,0,False,Corporate
+SA00000360,Sultan Mansour,2738,2018-04-06,Germany,Expatriate,Riyadh,36,5768.02,Low,False,2026-05-13,Retired,Not Employed,255760.73,False,1,False,Individual
+SA00000361,Noura Abdullah,1481,2021-09-14,Saudi Arabia,Saudi,Taif,6,6442.85,Medium,True,2026-09-17,Employed,Private Sector,420012.24,False,0,False,Corporate
+SA00000362,Mohammed Ahmed,2619,2018-08-03,Saudi Arabia,Saudi,Abha,45,3631.83,Low,True,2025-11-08,Employed,Not Employed,309124.72,False,1,False,Joint
+SA00000363,Mohammed Ahmed,1108,2022-09-22,Saudi Arabia,Saudi,Dammam,52,7858.47,High,True,2025-10-27,Employed,Self-Employed,32413.75,False,0,False,Individual
+SA00000364,Lama Khalid,2684,2018-05-30,Saudi Arabia,Saudi,Khobar,11,1747.93,High,False,2025-11-01,Retired,Not Employed,409658.18,True,1,False,Joint
+SA00000365,Sarah Ahmed,2417,2019-02-21,Saudi Arabia,Saudi,Taif,62,5019.7,High,True,2025-11-15,Self-Employed,Self-Employed,402246.13,False,0,True,Joint
+SA00000366,Nasser Ali,1108,2022-09-22,Saudi Arabia,Saudi,Taif,78,6519.6,Low,True,2026-10-04,Student,Not Employed,476912.53,False,0,True,Individual
+SA00000367,Faisal Omar,2541,2018-10-20,Saudi Arabia,Saudi,Taif,32,6115.38,High,True,2025-11-03,Retired,Not Employed,183342.72,False,1,False,Joint
+SA00000368,Abdullah Khalid,986,2023-01-22,UK,Expatriate,Buraidah,100,1825.34,Low,True,2026-06-20,Employed,Self-Employed,279825.69,False,2,False,Individual
+SA00000369,Sultan Mansour,747,2023-09-18,Saudi Arabia,Saudi,Jeddah,53,6865.38,Low,True,2026-06-12,Retired,Self-Employed,269003.31,True,0,True,Individual
+SA00000370,Sultan Mansour,879,2023-05-09,Turkey,Expatriate,Dhahran,65,5730.35,Medium,True,2026-09-11,Employed,Self-Employed,371633.73,True,0,False,Joint
+SA00000371,Saad Abdullah,2598,2018-08-24,Saudi Arabia,Saudi,Dammam,99,7468.75,High,True,2026-04-09,Employed,Not Employed,1967.22,False,0,False,Individual
+SA00000372,Bandar Mohammed,1686,2021-02-21,Saudi Arabia,Saudi,Buraidah,14,5235.14,Low,True,2025-12-29,Retired,Self-Employed,333989.34,False,2,False,Joint
+SA00000373,Turki Fahad,3377,2016-07-06,Saudi Arabia,Saudi,Medina,93,3997.46,Medium,True,2025-09-17,Self-Employed,Private Sector,268239.26,False,2,False,Individual
+SA00000374,Fahad Salem,3355,2016-07-28,Saudi Arabia,Saudi,Dhahran,86,2913.47,Low,False,2026-09-01,Self-Employed,Government,279136.21,False,0,True,Corporate
+SA00000375,Bandar Mohammed,534,2024-04-18,UK,Expatriate,Dhahran,57,3596.96,Low,True,2025-11-14,Retired,Not Employed,457677.67,False,0,False,Individual
+SA00000376,Sarah Ahmed,577,2024-03-06,Saudi Arabia,Saudi,Jubail,33,2295.59,High,True,2025-10-11,Self-Employed,Not Employed,485988.66,True,0,True,Corporate
+SA00000377,Noura Abdullah,2558,2018-10-03,Saudi Arabia,Saudi,Riyadh,17,3899.95,Medium,True,2026-02-18,Self-Employed,Self-Employed,138401.05,False,0,False,Corporate
+SA00000378,Fahad Salem,2556,2018-10-05,Saudi Arabia,Saudi,Medina,36,6259.54,Low,True,2026-04-26,Retired,Not Employed,454028.84,False,0,False,Corporate
+SA00000379,Turki Fahad,480,2024-06-11,Saudi Arabia,Saudi,Dhahran,36,4019.01,Low,False,2025-12-24,Employed,Self-Employed,367664.52,False,1,False,Corporate
+SA00000380,Fahad Salem,2648,2018-07-05,Saudi Arabia,Saudi,Taif,92,3621.64,Low,True,2026-02-03,Business Owner,Government,13649.74,True,0,False,Individual
+SA00000381,Abdullah Khalid,1436,2021-10-29,Saudi Arabia,Saudi,Jubail,97,7834.4,Low,True,2026-08-19,Retired,Not Employed,240815.01,False,1,False,Joint
+SA00000382,Saad Abdullah,1261,2022-04-22,Saudi Arabia,Saudi,Medina,34,715.62,Low,True,2026-03-16,Employed,Self-Employed,343475.55,False,1,False,Individual
+SA00000383,Abdullah Khalid,410,2024-08-20,Saudi Arabia,Saudi,Dammam,94,6297.01,Medium,False,2026-07-02,Retired,Private Sector,32232.07,False,0,False,Joint
+SA00000384,Khalid Ibrahim,1199,2022-06-23,Saudi Arabia,Saudi,Taif,68,5274.93,Medium,True,2026-05-25,Self-Employed,Government,349333.35,False,1,False,Individual
+SA00000385,Noura Abdullah,2991,2017-07-27,Saudi Arabia,Saudi,Buraidah,66,7727.23,Low,True,2025-12-18,Business Owner,Government,162623.95,False,0,False,Corporate
+SA00000386,Nasser Ali,2220,2019-09-06,Oman,Expatriate,Abha,18,7573.25,Low,False,2026-06-11,Employed,Not Employed,49110.24,True,2,True,Joint
+SA00000387,Sultan Mansour,1763,2020-12-06,Saudi Arabia,Saudi,Mecca,47,6135.69,Low,False,2026-07-29,Business Owner,Government,71822.56,False,1,False,Individual
+SA00000388,Sultan Mansour,1554,2021-07-03,Saudi Arabia,Saudi,Mecca,95,5995.76,Low,False,2025-09-21,Employed,Private Sector,98021.22,False,1,True,Corporate
+SA00000389,Mohammed Ahmed,2878,2017-11-17,Saudi Arabia,Saudi,Abha,46,7341.0,Low,True,2026-01-29,Employed,Government,144993.41,False,0,True,Corporate
+SA00000390,Abdullah Khalid,180,2025-04-07,India,Expatriate,Jeddah,37,2694.12,High,True,2025-09-13,Employed,Not Employed,212495.24,False,0,False,Individual
+SA00000391,Fahad Salem,3523,2016-02-11,Saudi Arabia,Saudi,Dammam,9,445.76,Low,True,2026-07-01,Self-Employed,Private Sector,332587.2,False,0,True,Individual
+SA00000392,Sarah Ahmed,421,2024-08-09,Saudi Arabia,Saudi,Jubail,83,6108.57,Low,True,2026-09-27,Self-Employed,Self-Employed,267325.45,False,0,False,Individual
+SA00000393,Fahad Salem,2658,2018-06-25,Saudi Arabia,Saudi,Khobar,28,4232.78,Low,True,2025-11-24,Self-Employed,Self-Employed,168099.76,False,2,False,Corporate
+SA00000394,Sultan Mansour,917,2023-04-01,Saudi Arabia,Saudi,Mecca,69,3317.88,Low,False,2026-04-11,Employed,Private Sector,132222.59,True,0,True,Individual
+SA00000395,Noura Abdullah,742,2023-09-23,Saudi Arabia,Saudi,Riyadh,98,6519.87,Low,True,2026-04-15,Student,Not Employed,312738.64,False,0,False,Individual
+SA00000396,Khalid Ibrahim,3431,2016-05-13,Pakistan,Expatriate,Dhahran,16,2809.95,Low,False,2026-03-29,Retired,Self-Employed,281578.92,False,0,True,Corporate
+SA00000397,Lama Khalid,1544,2021-07-13,Saudi Arabia,Saudi,Medina,86,4185.0,High,False,2026-04-05,Retired,Government,133667.22,False,0,False,Corporate
+SA00000398,Sultan Mansour,682,2023-11-22,Saudi Arabia,Saudi,Taif,39,7405.67,Medium,False,2026-09-07,Retired,Private Sector,169362.9,True,1,True,Individual
+SA00000399,Khalid Ibrahim,3093,2017-04-16,Saudi Arabia,Saudi,Mecca,42,1779.87,Medium,False,2026-07-04,Self-Employed,Self-Employed,52077.25,False,0,False,Joint
+SA00000400,Sarah Ahmed,3566,2015-12-30,USA,Expatriate,Medina,100,5077.31,Low,True,2026-01-20,Self-Employed,Self-Employed,205706.73,False,1,True,Individual
+SA00000401,Lama Khalid,1721,2021-01-17,Saudi Arabia,Saudi,Jeddah,55,5899.69,Low,True,2026-06-20,Student,Private Sector,308147.6,True,2,False,Corporate
+SA00000402,Maha Salem,1481,2021-09-14,Saudi Arabia,Saudi,Medina,91,7581.46,Low,True,2026-03-24,Business Owner,Private Sector,347471.78,False,0,False,Individual
+SA00000403,Khalid Ibrahim,3333,2016-08-19,France,Expatriate,Mecca,53,659.66,Low,True,2025-10-22,Retired,Not Employed,407351.86,True,2,False,Joint
+SA00000404,Noura Abdullah,1613,2021-05-05,Saudi Arabia,Saudi,Dammam,78,1822.45,Low,True,2026-01-28,Student,Private Sector,296280.55,False,0,True,Individual
+SA00000405,Sultan Mansour,2661,2018-06-22,Saudi Arabia,Saudi,Mecca,100,4709.59,Low,False,2026-08-29,Retired,Self-Employed,375450.98,False,0,False,Corporate
+SA00000406,Reem Ibrahim,3094,2017-04-15,Saudi Arabia,Saudi,Tabuk,80,5118.75,Low,True,2025-12-23,Student,Self-Employed,253060.74,False,2,False,Individual
+SA00000407,Reem Ibrahim,2907,2017-10-19,UK,Expatriate,Jubail,42,4623.82,Low,False,2026-04-23,Employed,Not Employed,341123.05,True,0,False,Corporate
+SA00000408,Abdullah Khalid,2487,2018-12-13,Saudi Arabia,Saudi,Riyadh,18,7656.27,Low,True,2026-03-02,Business Owner,Government,57237.49,False,1,False,Joint
+SA00000409,Lama Khalid,3148,2017-02-20,Saudi Arabia,Saudi,Jeddah,29,1966.09,Low,True,2025-12-23,Student,Not Employed,416698.76,False,2,False,Joint
+SA00000410,Mohammed Ahmed,1182,2022-07-10,Saudi Arabia,Saudi,Tabuk,74,6417.71,Low,True,2026-09-11,Employed,Government,432555.12,False,1,False,Individual
+SA00000411,Reem Ibrahim,1058,2022-11-11,Saudi Arabia,Saudi,Buraidah,16,1009.09,Low,True,2026-06-27,Business Owner,Government,385943.7,False,0,False,Individual
+SA00000412,Turki Fahad,2199,2019-09-27,Saudi Arabia,Saudi,Dhahran,58,7421.47,Medium,True,2026-09-21,Employed,Government,123600.68,False,0,False,Corporate
+SA00000413,Turki Fahad,1268,2022-04-15,Saudi Arabia,Saudi,Dammam,24,7972.02,Low,True,2025-12-14,Employed,Not Employed,31161.01,False,1,False,Corporate
+SA00000414,Reem Ibrahim,871,2023-05-17,Saudi Arabia,Saudi,Buraidah,53,658.33,Low,False,2025-10-24,Employed,Not Employed,58445.06,False,2,False,Joint
+SA00000415,Maha Salem,3501,2016-03-04,Saudi Arabia,Saudi,Riyadh,22,2566.95,Medium,True,2025-11-25,Business Owner,Government,145019.43,False,0,True,Joint
+SA00000416,Fahad Salem,1328,2022-02-14,Saudi Arabia,Saudi,Taif,94,785.65,High,True,2026-04-15,Student,Self-Employed,245684.32,False,0,False,Joint
+SA00000417,Turki Fahad,1008,2022-12-31,Saudi Arabia,Saudi,Jeddah,9,7360.17,Medium,True,2026-07-15,Employed,Not Employed,61496.06,True,0,False,Individual
+SA00000418,Faisal Omar,517,2024-05-05,Saudi Arabia,Saudi,Dammam,11,793.85,Low,True,2026-02-22,Self-Employed,Self-Employed,26173.88,True,2,True,Joint
+SA00000419,Abdullah Khalid,1621,2021-04-27,Saudi Arabia,Saudi,Dhahran,75,2175.51,Low,True,2025-11-28,Retired,Private Sector,378951.13,False,2,False,Individual
+SA00000420,Sarah Ahmed,599,2024-02-13,Saudi Arabia,Saudi,Khobar,41,3995.16,Low,False,2026-06-29,Business Owner,Self-Employed,260537.91,False,0,True,Joint
+SA00000421,Bandar Mohammed,2105,2019-12-30,Saudi Arabia,Saudi,Tabuk,33,7853.06,Low,True,2025-10-28,Business Owner,Self-Employed,216626.6,False,2,True,Individual
+SA00000422,Lama Khalid,1521,2021-08-05,Saudi Arabia,Saudi,Buraidah,42,7114.8,Low,False,2026-07-27,Employed,Not Employed,78453.12,False,0,False,Corporate
+SA00000423,Sultan Mansour,136,2025-05-21,Saudi Arabia,Saudi,Dhahran,6,3916.01,Low,True,2026-02-01,Retired,Government,419496.7,False,0,True,Individual
+SA00000424,Lama Khalid,195,2025-03-23,Saudi Arabia,Saudi,Jubail,70,3671.62,Low,True,2025-09-05,Student,Not Employed,270976.94,False,2,False,Individual
+SA00000425,Turki Fahad,585,2024-02-27,Qatar,Expatriate,Riyadh,65,3379.62,Low,True,2025-11-05,Retired,Private Sector,70433.49,False,1,False,Individual
+SA00000426,Fahad Salem,2307,2019-06-11,Saudi Arabia,Saudi,Dammam,6,4381.19,Medium,True,2025-11-22,Business Owner,Private Sector,179278.97,True,1,False,Individual
+SA00000427,Abdullah Khalid,1147,2022-08-14,Saudi Arabia,Saudi,Riyadh,97,6060.21,Low,False,2026-07-10,Employed,Private Sector,186826.34,False,2,False,Individual
+SA00000428,Mohammed Ahmed,2762,2018-03-13,Saudi Arabia,Saudi,Khobar,29,2685.74,Medium,True,2025-11-27,Business Owner,Private Sector,461806.11,False,0,False,Individual
+SA00000429,Turki Fahad,2034,2020-03-10,Saudi Arabia,Saudi,Riyadh,81,6121.53,High,True,2025-09-18,Self-Employed,Government,425817.91,False,0,False,Joint
+SA00000430,Noura Abdullah,3580,2015-12-16,Saudi Arabia,Saudi,Khobar,36,2550.0,High,True,2026-09-27,Self-Employed,Government,464952.54,False,0,True,Joint
+SA00000431,Saad Abdullah,3306,2016-09-15,Turkey,Expatriate,Jubail,85,1205.36,Low,True,2025-10-17,Business Owner,Private Sector,11775.12,False,0,True,Joint
+SA00000432,Khalid Ibrahim,2789,2018-02-14,Saudi Arabia,Saudi,Taif,76,4764.43,Low,True,2025-10-23,Self-Employed,Not Employed,125665.21,False,2,True,Joint
+SA00000433,Maha Salem,1336,2022-02-06,Saudi Arabia,Saudi,Khobar,75,2720.67,Low,False,2026-03-13,Business Owner,Self-Employed,349087.43,False,1,False,Individual
+SA00000434,Nasser Ali,3446,2016-04-28,Saudi Arabia,Saudi,Tabuk,60,4618.22,Low,True,2026-03-06,Self-Employed,Not Employed,7878.95,False,2,False,Corporate
+SA00000435,Saad Abdullah,1751,2020-12-18,Saudi Arabia,Saudi,Medina,34,3728.31,Low,True,2026-04-19,Employed,Government,199837.06,False,0,True,Individual
+SA00000436,Sarah Ahmed,1743,2020-12-26,Saudi Arabia,Saudi,Buraidah,13,2530.96,High,True,2025-11-14,Retired,Private Sector,317691.63,True,0,False,Corporate
+SA00000437,Bandar Mohammed,2552,2018-10-09,Oman,Expatriate,Abha,83,6821.26,Low,True,2026-02-05,Student,Not Employed,429910.79,False,0,False,Joint
+SA00000438,Fahad Salem,2796,2018-02-07,Saudi Arabia,Saudi,Medina,100,1298.54,Low,True,2025-12-21,Retired,Government,383512.78,False,0,True,Joint
+SA00000439,Abdullah Khalid,1290,2022-03-24,Saudi Arabia,Saudi,Jubail,47,2867.66,Medium,True,2026-02-18,Business Owner,Self-Employed,158004.98,False,1,False,Corporate
+SA00000440,Saad Abdullah,3446,2016-04-28,Saudi Arabia,Saudi,Tabuk,53,316.58,Low,True,2026-03-11,Student,Government,119961.34,False,0,False,Joint
+SA00000441,Bandar Mohammed,2797,2018-02-06,Saudi Arabia,Saudi,Dammam,50,1614.01,Low,True,2026-02-15,Business Owner,Private Sector,262917.69,False,0,False,Individual
+SA00000442,Nasser Ali,2508,2018-11-22,Saudi Arabia,Saudi,Dhahran,28,7257.6,High,True,2026-04-18,Self-Employed,Government,242943.78,False,1,False,Individual
+SA00000443,Abdullah Khalid,1267,2022-04-16,Saudi Arabia,Saudi,Dhahran,64,4424.28,Low,True,2026-03-06,Self-Employed,Private Sector,449973.64,False,1,False,Corporate
+SA00000444,Khalid Ibrahim,1652,2021-03-27,Saudi Arabia,Saudi,Mecca,50,6061.89,Low,True,2025-12-31,Business Owner,Private Sector,250305.78,False,1,False,Individual
+SA00000445,Mohammed Ahmed,649,2023-12-25,Saudi Arabia,Saudi,Dhahran,17,5437.11,Low,True,2026-06-26,Self-Employed,Private Sector,106217.39,True,0,True,Joint
+SA00000446,Bandar Mohammed,377,2024-09-22,UAE,Expatriate,Riyadh,12,5239.8,Low,True,2026-04-12,Employed,Not Employed,73539.34,False,0,False,Joint
+SA00000447,Turki Fahad,292,2024-12-16,Pakistan,Expatriate,Khobar,81,2611.01,Medium,True,2025-12-29,Employed,Self-Employed,397063.95,False,2,False,Individual
+SA00000448,Nasser Ali,369,2024-09-30,Saudi Arabia,Saudi,Abha,85,3856.04,High,True,2026-01-27,Retired,Not Employed,145167.84,False,0,True,Individual
+SA00000449,Sultan Mansour,2548,2018-10-13,Saudi Arabia,Saudi,Khobar,30,5485.9,Low,True,2026-08-13,Student,Not Employed,214240.14,False,2,True,Corporate
+SA00000450,Fahad Salem,1441,2021-10-24,Saudi Arabia,Saudi,Abha,65,5255.2,Medium,True,2025-11-07,Employed,Private Sector,277110.27,False,0,False,Corporate
+SA00000451,Noura Abdullah,3295,2016-09-26,Saudi Arabia,Saudi,Tabuk,12,1415.86,Low,True,2026-08-15,Employed,Not Employed,239490.98,True,2,True,Individual
+SA00000452,Maha Salem,2607,2018-08-15,France,Expatriate,Abha,59,1795.08,Low,True,2025-11-20,Self-Employed,Not Employed,61990.54,False,1,False,Individual
+SA00000453,Maha Salem,1580,2021-06-07,Saudi Arabia,Saudi,Abha,71,5819.6,High,True,2026-04-04,Self-Employed,Not Employed,42352.13,False,0,False,Individual
+SA00000454,Mohammed Ahmed,194,2025-03-24,Saudi Arabia,Saudi,Jubail,36,3737.74,Low,True,2026-06-22,Business Owner,Private Sector,436913.88,False,0,False,Corporate
+SA00000455,Bandar Mohammed,1441,2021-10-24,UK,Expatriate,Dhahran,83,1827.8,Medium,True,2025-10-26,Student,Private Sector,400822.96,False,0,False,Joint
+SA00000456,Faisal Omar,3644,2015-10-13,Saudi Arabia,Saudi,Medina,72,1287.8,Low,True,2026-01-22,Employed,Not Employed,402012.31,False,2,True,Corporate
+SA00000457,Nasser Ali,783,2023-08-13,Saudi Arabia,Saudi,Taif,33,6997.74,Low,True,2025-11-16,Student,Private Sector,496714.89,False,0,False,Individual
+SA00000458,Faisal Omar,3447,2016-04-27,UK,Expatriate,Khobar,54,4986.04,Medium,True,2026-06-01,Student,Self-Employed,294545.95,False,0,False,Joint
+SA00000459,Faisal Omar,2930,2017-09-26,Saudi Arabia,Saudi,Jeddah,7,2593.25,Low,True,2025-09-06,Student,Private Sector,485361.99,False,0,True,Joint
+SA00000460,Abdullah Khalid,3547,2016-01-18,Saudi Arabia,Saudi,Mecca,91,623.05,Medium,True,2026-09-23,Student,Not Employed,355625.49,False,1,False,Joint
+SA00000461,Mohammed Ahmed,2906,2017-10-20,Saudi Arabia,Saudi,Tabuk,61,4757.59,Low,True,2026-08-20,Retired,Private Sector,36938.14,True,0,False,Corporate
+SA00000462,Fahad Salem,47,2025-08-18,Saudi Arabia,Saudi,Mecca,30,2483.12,Medium,False,2026-06-12,Employed,Self-Employed,455398.56,False,2,True,Individual
+SA00000463,Maha Salem,506,2024-05-16,Saudi Arabia,Saudi,Buraidah,42,5645.29,Low,False,2025-09-16,Self-Employed,Private Sector,325040.17,True,0,False,Corporate
+SA00000464,Sarah Ahmed,2305,2019-06-13,Qatar,Expatriate,Medina,29,3668.72,Low,True,2026-06-21,Retired,Self-Employed,32483.63,False,0,True,Joint
+SA00000465,Nasser Ali,78,2025-07-18,Egypt,Expatriate,Dhahran,85,1913.74,Low,False,2025-12-15,Employed,Government,34148.12,False,0,False,Individual
+SA00000466,Reem Ibrahim,2091,2020-01-13,Saudi Arabia,Saudi,Dammam,21,3224.05,Low,True,2025-12-17,Self-Employed,Not Employed,424633.09,True,0,False,Joint
+SA00000467,Turki Fahad,2861,2017-12-04,Saudi Arabia,Saudi,Tabuk,56,4090.37,Low,True,2026-03-18,Employed,Self-Employed,320237.44,False,1,False,Corporate
+SA00000468,Turki Fahad,128,2025-05-29,Saudi Arabia,Saudi,Khobar,58,2383.47,Low,True,2025-12-09,Self-Employed,Self-Employed,311005.0,False,1,False,Corporate
+SA00000469,Sarah Ahmed,3408,2016-06-05,Saudi Arabia,Saudi,Riyadh,14,1044.59,Low,True,2026-03-23,Employed,Not Employed,172817.82,True,2,False,Joint
+SA00000470,Turki Fahad,917,2023-04-01,Saudi Arabia,Saudi,Jubail,70,4701.2,Low,True,2026-01-12,Employed,Government,141281.84,False,0,False,Corporate
+SA00000471,Reem Ibrahim,1606,2021-05-12,India,Expatriate,Jeddah,92,1865.9,Low,True,2026-05-29,Employed,Self-Employed,257768.27,False,0,False,Corporate
+SA00000472,Turki Fahad,1472,2021-09-23,Saudi Arabia,Saudi,Riyadh,30,528.09,Low,True,2026-03-29,Business Owner,Self-Employed,191025.87,False,0,True,Corporate
+SA00000473,Abdullah Khalid,177,2025-04-10,Saudi Arabia,Saudi,Tabuk,9,1407.19,Medium,True,2026-03-30,Business Owner,Private Sector,242124.55,False,0,False,Individual
+SA00000474,Reem Ibrahim,2143,2019-11-22,Saudi Arabia,Saudi,Dhahran,59,7851.43,High,False,2025-10-31,Employed,Not Employed,413387.57,False,0,False,Joint
+SA00000475,Khalid Ibrahim,2749,2018-03-26,Saudi Arabia,Saudi,Mecca,57,712.25,Low,True,2025-09-18,Retired,Private Sector,187774.52,False,0,False,Joint
+SA00000476,Faisal Omar,1758,2020-12-11,Saudi Arabia,Saudi,Taif,95,1369.62,Low,True,2026-03-09,Self-Employed,Private Sector,289461.97,True,1,False,Corporate
+SA00000477,Nasser Ali,1618,2021-04-30,Saudi Arabia,Saudi,Abha,23,935.26,Medium,True,2026-06-17,Employed,Government,340819.06,True,0,True,Corporate
+SA00000478,Maha Salem,2507,2018-11-23,Egypt,Expatriate,Riyadh,30,250.39,High,True,2025-12-17,Self-Employed,Not Employed,89795.37,False,0,False,Corporate
+SA00000479,Sarah Ahmed,315,2024-11-23,Saudi Arabia,Saudi,Khobar,99,5738.94,Low,True,2025-11-07,Business Owner,Self-Employed,471722.21,False,0,False,Individual
+SA00000480,Khalid Ibrahim,3381,2016-07-02,Saudi Arabia,Expatriate,Buraidah,77,7406.09,Low,True,2026-07-28,Student,Private Sector,278007.16,False,0,True,Corporate
+SA00000481,Lama Khalid,3089,2017-04-20,Bahrain,Expatriate,Jeddah,69,2481.42,Low,True,2026-08-24,Student,Not Employed,99610.56,True,0,False,Corporate
+SA00000482,Abdullah Khalid,629,2024-01-14,Saudi Arabia,Saudi,Riyadh,23,5787.36,Low,True,2025-12-12,Retired,Self-Employed,244685.48,False,0,True,Joint
+SA00000483,Abdullah Khalid,1953,2020-05-30,USA,Expatriate,Jeddah,91,4721.07,Medium,True,2026-03-15,Retired,Not Employed,175258.57,False,0,True,Corporate
+SA00000484,Bandar Mohammed,196,2025-03-22,Saudi Arabia,Saudi,Tabuk,97,5513.84,High,True,2025-12-12,Retired,Self-Employed,8530.85,True,2,False,Individual
+SA00000485,Maha Salem,3405,2016-06-08,Saudi Arabia,Saudi,Dammam,22,7894.03,Medium,True,2025-12-13,Student,Private Sector,478615.39,False,0,False,Joint
+SA00000486,Sultan Mansour,3143,2017-02-25,Saudi Arabia,Saudi,Medina,84,5686.68,Medium,True,2026-03-08,Retired,Not Employed,336045.06,False,0,False,Corporate
+SA00000487,Sarah Ahmed,3260,2016-10-31,Bahrain,Expatriate,Jeddah,47,489.71,Low,True,2025-10-09,Student,Private Sector,209819.97,False,1,False,Individual
+SA00000488,Turki Fahad,1458,2021-10-07,Egypt,Expatriate,Abha,38,6788.62,Low,False,2026-06-15,Self-Employed,Private Sector,159662.93,True,1,False,Corporate
+SA00000489,Bandar Mohammed,395,2024-09-04,Oman,Expatriate,Jeddah,41,4649.55,Medium,True,2026-01-11,Student,Private Sector,485164.45,True,0,True,Corporate
+SA00000490,Fahad Salem,3357,2016-07-26,Saudi Arabia,Saudi,Riyadh,31,914.63,Medium,True,2026-08-06,Student,Not Employed,182751.14,True,0,False,Corporate
+SA00000491,Maha Salem,1110,2022-09-20,Saudi Arabia,Saudi,Tabuk,26,7910.31,Medium,True,2026-01-30,Employed,Government,405516.58,False,0,True,Joint
+SA00000492,Sultan Mansour,383,2024-09-16,Saudi Arabia,Saudi,Abha,100,3140.52,Low,True,2025-10-18,Business Owner,Government,279959.43,False,0,False,Individual
+SA00000493,Abdullah Khalid,3623,2015-11-03,UK,Expatriate,Abha,30,5891.14,Low,True,2026-02-14,Student,Private Sector,191004.02,False,0,False,Individual
+SA00000494,Mohammed Ahmed,2988,2017-07-30,Saudi Arabia,Saudi,Tabuk,11,4305.32,High,True,2025-10-07,Business Owner,Not Employed,260760.05,False,0,False,Individual
+SA00000495,Noura Abdullah,1405,2021-11-29,Saudi Arabia,Saudi,Dammam,13,2813.8,High,True,2026-07-20,Employed,Private Sector,25159.79,False,2,False,Joint
+SA00000496,Nasser Ali,1738,2020-12-31,Kuwait,Expatriate,Medina,58,3272.48,High,True,2026-05-24,Employed,Private Sector,492530.13,False,1,False,Corporate
+SA00000497,Saad Abdullah,3224,2016-12-06,Saudi Arabia,Saudi,Jubail,37,6199.01,Low,True,2026-09-06,Self-Employed,Government,496757.33,False,0,False,Joint
+SA00000498,Lama Khalid,2792,2018-02-11,Saudi Arabia,Saudi,Jubail,36,265.26,High,False,2026-05-16,Self-Employed,Not Employed,309557.57,False,0,False,Joint
+SA00000499,Sultan Mansour,3089,2017-04-20,Saudi Arabia,Saudi,Mecca,90,3493.09,Low,False,2026-03-31,Retired,Government,378855.32,False,0,True,Corporate
+SA00000500,Maha Salem,2856,2017-12-09,Bahrain,Expatriate,Buraidah,68,3933.99,Low,True,2026-04-01,Self-Employed,Not Employed,272601.1,False,0,False,Joint
